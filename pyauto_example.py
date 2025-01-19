@@ -20,6 +20,8 @@ with pyautogui.hold("command"):
     pyautogui.press("space")
 ```
 """
+# Workaround as described here:
+# https://github.com/asweigart/pyautogui/issues/687#issuecomment-1099743127
 
 user_prompt = """"Write PyAutoGUI code to perform the following action on {platform}.
 <ACTION>
