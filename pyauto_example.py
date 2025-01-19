@@ -11,42 +11,32 @@ load_dotenv()
 client = anthropic.Client(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 
-def clean_code_block(text):
-    # Remove triple backticks and language identifier
-    lines = text.split("\n")
-    cleaned_lines = []
-    in_code_block = False
+system_prompt = (
+    "You are an automation expert. Generate PyAutoGUI code based on user prompts."
+)
+user_prompt = """"Write PyAutoGUI code to perform the following action on {platform}.
+<ACTION>
+{action}
+</ACTION>
 
-    for line in lines:
-        if line.startswith("```"):
-            in_code_block = not in_code_block
-            continue
-        if in_code_block or not line.startswith("```"):
-            cleaned_lines.append(line)
-
-    # Join lines with escaped newlines
-    return "\\n".join(cleaned_lines)
+Generate your response as:
+* Code, delimited between <CODE> tags
+* Explanation, delimited between <EXPLANATION> tags.
+"""
 
 
-def get_code_from_api(prompt) -> tuple[str | None, str | None]:
-    system_prompt = """You are an automation expert. Generate PyAutoGUI code based on user prompts.
-    Provide response in JSON format as follows:
-    {
-    "code": "The python code which implements the user request"
-    "explanation": "The explanation of how the script works"
-    }
-    """
-
-    user_prompt = (
-        f"Write PyAutoGUI code to {prompt} on {sys.platform}. Produce valid JSON."
-    )
-
+def query(action: str) -> tuple[str | None, str | None]:
     # Force structured output by using answer prefill
     # See https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/increase-consistency#prefill-claudes-response and
     # https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags#example-legal-contract-analysis
-    messages = [{"role": "user", "content": user_prompt}]
-    opening_tag = "{"
-    closing_tag = "}"
+    messages = [
+        {
+            "role": "user",
+            "content": user_prompt.format(platform=sys.platform, action=action),
+        }
+    ]
+    opening_tag = "<CODE>"
+    closing_tag = "</EXPLANATION>"
     messages.append({"role": "assistant", "content": opening_tag})
 
     try:
@@ -59,14 +49,12 @@ def get_code_from_api(prompt) -> tuple[str | None, str | None]:
             temperature=0.0,
         )
         response = message.content[0].text
-        structured_response = opening_tag + response.split(closing_tag)[0] + closing_tag
-        cleaned_response = clean_code_block(structured_response)
+        response = opening_tag + response.split(closing_tag)[0] + closing_tag
+        # print(response)
+        code = (response.split("<CODE>")[-1]).split("</CODE>")[0]
+        explanation = (response.split("<EXPLANATION>")[-1]).split("</EXPLANATION>")[0]
 
-        print(f"Cleaned responses: {cleaned_response}")
-
-        # Parse JSON from response
-        result = json.loads(cleaned_response)
-        return result["code"], result["explanation"]
+        return code, explanation
     except Exception as e:
         print(f"Error getting code from API: {str(e)}")
         return None, None
@@ -76,13 +64,13 @@ def main():
     while True:
         # Get user prompt
         print("\nEnter your task prompt (e.g. 'use the calculator to multiply 2*3')")
-        user_prompt = input("> ")
-        if len(user_prompt) == 0:
-            user_prompt = "use the calculator to multiply 2*3"
-            print(user_prompt)
+        action = input("> ")
+        if len(action) == 0:
+            action = "use the calculator to multiply 2*3"
+            print(action)
 
         # Get code from API
-        code, explanation = get_code_from_api(user_prompt)
+        code, explanation = query(action)
 
         if not code:
             print("Failed to generate code. Please try again.")
