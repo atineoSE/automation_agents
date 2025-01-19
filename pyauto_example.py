@@ -11,9 +11,16 @@ load_dotenv()
 client = anthropic.Client(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 
-system_prompt = (
-    "You are an automation expert. Generate PyAutoGUI code based on user prompts."
-)
+system_prompt = """You are an automation expert. Generate PyAutoGUI code based on user prompts.
+
+If you need to use Spotlight on Mac use this workaround:
+```
+with pyautogui.hold("command"):
+    time.sleep(1)
+    pyautogui.press("space")
+```
+"""
+
 user_prompt = """"Write PyAutoGUI code to perform the following action on {platform}.
 <ACTION>
 {action}
