@@ -58,9 +58,9 @@ You can inspect [the original prompt](./prompt_calculator_original.txt), as outp
 
 ## Obtain maximum exchange rate in a given rate with OpenAdapt
 
-In this experiment, we record a demonstration of using the [x-rates website](https://www.x-rates.com/average/) to find the highest monthly average value of the USD/EUR exchange rate from 2022 to Jan 2025.
+We suggest a new, more compelling experiment: to obtain the highest monthly average exchange rate for USD/EUR between 2022 and 2025, by fetching relevant information from the [x-rates website](https://www.x-rates.com/average/).
 
-A sample recording can be found [here](./outputs/exchange_rate_flow_visualization.pdf).
+For that we performa a demonstration and record it with OpenAdapt. A sample recording can be found [here](./outputs/exchange_rate_flow_visualization.pdf).
 
 Next, we planned to get a step-by-step description as done previously, but this failed because the visualization could not be loaded for analysis (refer to "troubleshooting" section below for details).
 
