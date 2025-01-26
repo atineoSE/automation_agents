@@ -56,7 +56,7 @@ You can inspect [the original prompt](./prompt_calculator_original.txt), as outp
 
 ![Anthropic tool use prompted with step-by-step instructions](./outputs/calculator_example_tool_use_prompted_by_OpenAdapt_descriptions.png)
 
-## Obtain maximum exchange rate in a given rate with OpenAdapt
+## New use case: Obtain maximum exchange rate in a given time range
 
 We suggest a new, more compelling experiment: to obtain the highest monthly average exchange rate for USD/EUR between 2022 and 2025, by fetching relevant information from the [x-rates website](https://www.x-rates.com/average/).
 
