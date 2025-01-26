@@ -1,0 +1,30 @@
+1. Move mouse to browser icon
+2. Left singleclick browser icon
+3. Move mouse to URL bar
+4. Type "x-rates.com"
+5. Type enter
+6. Move mouse to "monthly average" button
+7. Left singleclick  "monthly average" button
+8. Annotate monthly averages for "2025"
+9. Move mouse over "2025" in the drop-down menu
+10. Left singleclick drop-down "2025"
+11. Move mouse to "2024"
+12. Left singleclick "2024"
+13. Annotate visible monthly averages for 2024
+14. Press page down key
+15. Annotate more monthly averages for 2024
+16. Move mouse over "2024" in the drop-down menu
+17. Left singleclick drop-down "2024"
+18. Move mouse to drop-down "2023"
+19. Left singleclick drop-down "2023"
+20. Annotate visible monthly averages for 2023
+21. Press page down key
+22. Annotate more monthly averages for 2023
+23. Move mouse over "2023" in the drop-down menu
+24. Left singleclick drop-down "2023"
+25. Move mouse to drop-down "2022"
+26. Left singleclick drop-down "2022"
+27. Annotate visible monthly averages for 2022
+28. Press page down key
+29. Annotate more monthly averages for 2022
+30. Based on your annotations for 2025, 2024, 2024 and 2022, determine the highest exchange rate value across all these years

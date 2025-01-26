@@ -1,0 +1,1 @@
+Go to x-rates.com and fetch the highest monthly average USD/EUR exchange rate between 2022 and 2025
