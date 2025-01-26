@@ -1,3 +1,6 @@
 [submodule "anthropic-quickstarts"]
 	path = anthropic-quickstarts
 	url = https://github.com/anthropics/anthropic-quickstarts
+[submodule "openadapt"]
+	path = openadapt
+	url = https://github.com/OpenAdaptAI/OpenAdapt.git
