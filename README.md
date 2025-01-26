@@ -7,7 +7,7 @@ The script `pyauto_example.py` can be used to run automation described by natura
 
 A sample execution is available [here](./outputs/calculator_example_pyautogui.mp4).
 It opens the calculator app on the Mac and performs a simple operation.
-[![Calculator app operated via PyAutoGUI](https://youtu.be/-sRKrTocaPU/hqdefault.jpg)](https://youtu.be/-sRKrTocaPU)
+[![Calculator app operated via PyAutoGUI](https://img.youtube.com/vi/-sRKrTocaPU/hqdefault.jpg)](https://www.youtube.com/embed/-sRKrTocaPU)
 
 
 # Anthropic Computer use
@@ -61,3 +61,9 @@ You can inspect [the original prompt](./original_prompt.txt), as output by the s
 ## Obtain maximum exchange rate with OpenAdapt
 
 In this experiment, we record a demonstration of using the [x-rates website](https://www.x-rates.com/average/) to find the highest monthly average value of the USD/EUR exchange rate from 2022 to Jan 2025.
+
+# Troubleshooting
+
+Some operations were tricky and I couldn't make them work reliably, namely:
+* Visualizing a recording takes a long time. It takes many minutes before the visualization can be seen. The terminal seems to hang.
+
