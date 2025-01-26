@@ -66,7 +66,7 @@ Next, we planned to get a step-by-step description as done previously, but this 
 
 Thus, we created the step-by-step description manually and sent it to Claude to fetch the relevant values and reveal the maximum value.
 
-Despite multiple attempts, we couldn't get the model to succeed. Next we analyze the failure patterns.
+Despite multiple attempts, we couldn't get the model to succeed. Next, we analyze the failure patterns.
 
 ## Failure patterns in Anthropic computer use
 
