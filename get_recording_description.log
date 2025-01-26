@@ -1,0 +1,2633 @@
+2025-01-26 16:00:23.080 | INFO     | openadapt.browser:add_screen_tlbr:298 - Finished processing all browser events for screen coordinates.
+  0%|          | 0/111 [00:00<?, ?it/s]2025-01-26 16:00:23.082 | INFO     | openadapt.browser:assign_browser_events:845 - Left Click: 12 action events, 0 browser events
+2025-01-26 16:00:23.082 | INFO     | openadapt.browser:evaluate_alignment:607 - Alignment for Left Click Events
+2025-01-26 16:00:23.082 | INFO     | openadapt.browser:evaluate_alignment:690 - Total Matches: 0
+2025-01-26 16:00:23.082 | INFO     | openadapt.browser:evaluate_alignment:691 - Total Mismatches: 0
+2025-01-26 16:00:23.083 | INFO     | openadapt.browser:assign_browser_events:845 - Mouse Move: 196 action events, 0 browser events
+2025-01-26 16:00:23.083 | INFO     | openadapt.browser:evaluate_alignment:607 - Alignment for Mouse Move Events
+2025-01-26 16:00:23.083 | INFO     | openadapt.browser:evaluate_alignment:690 - Total Matches: 0
+2025-01-26 16:00:23.083 | INFO     | openadapt.browser:evaluate_alignment:691 - Total Mismatches: 0
+ 36%|███▌      | 40/111 [00:00<00:00, 396.19it/s]100%|██████████| 111/111 [00:00<00:00, 593.15it/s]
+2025-01-26 16:00:23.269 | WARNING  | openadapt.browser:assign_browser_events:908 - name='Remote' time_differences=[]
+2025-01-26 16:00:23.269 | WARNING  | openadapt.browser:assign_browser_events:908 - name='Local' time_differences=[]
+2025-01-26 16:00:23.269 | WARNING  | openadapt.browser:assign_browser_events:935 - axis='X' mouse_differences=[]
+2025-01-26 16:00:23.269 | WARNING  | openadapt.browser:assign_browser_events:935 - axis='Y' mouse_differences=[]
+2025-01-26 16:00:23.269 | INFO     | openadapt.browser:assign_browser_events:971 - Total Errors Across All Events: 0
+2025-01-26 16:00:23.270 | INFO     | openadapt.browser:log_stats:982 - event_stats['match_count']=0
+2025-01-26 16:00:23.270 | INFO     | openadapt.browser:log_stats:983 - event_stats['mismatch_count']=0
+2025-01-26 16:00:23.270 | INFO     | openadapt.browser:log_stats:984 - event_stats['unmatched_browser_events']=0
+2025-01-26 16:00:23.292 | DEBUG    | openadapt.events:get_events:63 - raw_action_event_dicts=
+[{'id': 1,
+  'mouse_x': 479,
+  'mouse_y': 563,
+  'name': 'move',
+  'screenshot_id': 1,
+  'screenshot_timestamp': 1737896651.9676237,
+  'timestamp': 1737896651.9731925,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 2,
+  'mouse_x': 478,
+  'mouse_y': 561,
+  'name': 'move',
+  'screenshot_id': 2,
+  'screenshot_timestamp': 1737896652.0221767,
+  'timestamp': 1737896652.0249407,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 3,
+  'mouse_x': 479,
+  'mouse_y': 561,
+  'name': 'move',
+  'screenshot_id': 2,
+  'screenshot_timestamp': 1737896652.0221767,
+  'timestamp': 1737896652.0250723,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 4,
+  'mouse_x': 483,
+  'mouse_y': 561,
+  'name': 'move',
+  'screenshot_id': 2,
+  'screenshot_timestamp': 1737896652.0221767,
+  'timestamp': 1737896652.0253096,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 5,
+  'mouse_x': 487,
+  'mouse_y': 561,
+  'name': 'move',
+  'screenshot_id': 2,
+  'screenshot_timestamp': 1737896652.0221767,
+  'timestamp': 1737896652.025664,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 6,
+  'mouse_x': 494,
+  'mouse_y': 562,
+  'name': 'move',
+  'screenshot_id': 3,
+  'screenshot_timestamp': 1737896652.0434828,
+  'timestamp': 1737896652.0480416,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 7,
+  'mouse_x': 516,
+  'mouse_y': 566,
+  'name': 'move',
+  'screenshot_id': 4,
+  'screenshot_timestamp': 1737896652.0580597,
+  'timestamp': 1737896652.0619256,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 8,
+  'mouse_x': 538,
+  'mouse_y': 571,
+  'name': 'move',
+  'screenshot_id': 5,
+  'screenshot_timestamp': 1737896652.076737,
+  'timestamp': 1737896652.0793374,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 9,
+  'mouse_x': 561,
+  'mouse_y': 576,
+  'name': 'move',
+  'screenshot_id': 6,
+  'screenshot_timestamp': 1737896652.1093345,
+  'timestamp': 1737896652.1138272,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 10,
+  'mouse_x': 585,
+  'mouse_y': 584,
+  'name': 'move',
+  'screenshot_id': 6,
+  'screenshot_timestamp': 1737896652.1093345,
+  'timestamp': 1737896652.1139023,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 11,
+  'mouse_x': 615,
+  'mouse_y': 593,
+  'name': 'move',
+  'screenshot_id': 7,
+  'screenshot_timestamp': 1737896652.1310222,
+  'timestamp': 1737896652.132953,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 12,
+  'mouse_x': 648,
+  'mouse_y': 602,
+  'name': 'move',
+  'screenshot_id': 8,
+  'screenshot_timestamp': 1737896652.1498463,
+  'timestamp': 1737896652.160244,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 13,
+  'mouse_x': 687,
+  'mouse_y': 613,
+  'name': 'move',
+  'screenshot_id': 9,
+  'screenshot_timestamp': 1737896652.169762,
+  'timestamp': 1737896652.1712556,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 14,
+  'mouse_x': 715,
+  'mouse_y': 622,
+  'name': 'move',
+  'screenshot_id': 10,
+  'screenshot_timestamp': 1737896652.1807094,
+  'timestamp': 1737896652.1846275,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 15,
+  'mouse_x': 753,
+  'mouse_y': 635,
+  'name': 'move',
+  'screenshot_id': 11,
+  'screenshot_timestamp': 1737896652.2037525,
+  'timestamp': 1737896652.2040927,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 16,
+  'mouse_x': 789,
+  'mouse_y': 648,
+  'name': 'move',
+  'screenshot_id': 12,
+  'screenshot_timestamp': 1737896652.222142,
+  'timestamp': 1737896652.225516,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 17,
+  'mouse_x': 803,
+  'mouse_y': 654,
+  'name': 'move',
+  'screenshot_id': 13,
+  'screenshot_timestamp': 1737896652.2411153,
+  'timestamp': 1737896652.2432475,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 18,
+  'mouse_x': 815,
+  'mouse_y': 659,
+  'name': 'move',
+  'screenshot_id': 14,
+  'screenshot_timestamp': 1737896652.2554681,
+  'timestamp': 1737896652.2638829,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 19,
+  'mouse_x': 828,
+  'mouse_y': 665,
+  'name': 'move',
+  'screenshot_id': 15,
+  'screenshot_timestamp': 1737896652.2807627,
+  'timestamp': 1737896652.2856717,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 20,
+  'mouse_x': 841,
+  'mouse_y': 671,
+  'name': 'move',
+  'screenshot_id': 16,
+  'screenshot_timestamp': 1737896652.2998123,
+  'timestamp': 1737896652.3009806,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 21,
+  'mouse_x': 853,
+  'mouse_y': 676,
+  'name': 'move',
+  'screenshot_id': 17,
+  'screenshot_timestamp': 1737896652.3142579,
+  'timestamp': 1737896652.3164797,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 22,
+  'mouse_x': 864,
+  'mouse_y': 680,
+  'name': 'move',
+  'screenshot_id': 18,
+  'screenshot_timestamp': 1737896652.3287914,
+  'timestamp': 1737896652.3305862,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 23,
+  'mouse_x': 878,
+  'mouse_y': 685,
+  'name': 'move',
+  'screenshot_id': 19,
+  'screenshot_timestamp': 1737896652.348776,
+  'timestamp': 1737896652.3646135,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 24,
+  'mouse_x': 889,
+  'mouse_y': 690,
+  'name': 'move',
+  'screenshot_id': 20,
+  'screenshot_timestamp': 1737896652.373807,
+  'timestamp': 1737896652.3784878,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 25,
+  'mouse_x': 911,
+  'mouse_y': 698,
+  'name': 'move',
+  'screenshot_id': 21,
+  'screenshot_timestamp': 1737896652.3801732,
+  'timestamp': 1737896652.385038,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 26,
+  'mouse_x': 931,
+  'mouse_y': 705,
+  'name': 'move',
+  'screenshot_id': 22,
+  'screenshot_timestamp': 1737896652.398785,
+  'timestamp': 1737896652.4093132,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 27,
+  'mouse_x': 949,
+  'mouse_y': 710,
+  'name': 'move',
+  'screenshot_id': 23,
+  'screenshot_timestamp': 1737896652.4246802,
+  'timestamp': 1737896652.4300542,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 28,
+  'mouse_x': 961,
+  'mouse_y': 714,
+  'name': 'move',
+  'screenshot_id': 24,
+  'screenshot_timestamp': 1737896652.4323182,
+  'timestamp': 1737896652.4381402,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 29,
+  'mouse_x': 973,
+  'mouse_y': 718,
+  'name': 'move',
+  'screenshot_id': 25,
+  'screenshot_timestamp': 1737896652.4582484,
+  'timestamp': 1737896652.460735,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 30,
+  'mouse_x': 975,
+  'mouse_y': 720,
+  'name': 'move',
+  'screenshot_id': 26,
+  'screenshot_timestamp': 1737896652.4741907,
+  'timestamp': 1737896652.4821398,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 31,
+  'mouse_x': 976,
+  'mouse_y': 721,
+  'name': 'move',
+  'screenshot_id': 27,
+  'screenshot_timestamp': 1737896652.519866,
+  'timestamp': 1737896652.5250025,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 32,
+  'mouse_x': 976,
+  'mouse_y': 722,
+  'name': 'move',
+  'screenshot_id': 28,
+  'screenshot_timestamp': 1737896652.6316478,
+  'timestamp': 1737896652.633492,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 33,
+  'mouse_x': 977,
+  'mouse_y': 727,
+  'name': 'move',
+  'screenshot_id': 28,
+  'screenshot_timestamp': 1737896652.6316478,
+  'timestamp': 1737896652.6335857,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 34,
+  'mouse_x': 981,
+  'mouse_y': 733,
+  'name': 'move',
+  'screenshot_id': 28,
+  'screenshot_timestamp': 1737896652.6316478,
+  'timestamp': 1737896652.633614,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 35,
+  'mouse_x': 988,
+  'mouse_y': 740,
+  'name': 'move',
+  'screenshot_id': 29,
+  'screenshot_timestamp': 1737896652.6429117,
+  'timestamp': 1737896652.6460376,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 36,
+  'mouse_x': 992,
+  'mouse_y': 743,
+  'name': 'move',
+  'screenshot_id': 30,
+  'screenshot_timestamp': 1737896652.6979296,
+  'timestamp': 1737896652.6993423,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 37,
+  'mouse_x': 995,
+  'mouse_y': 745,
+  'name': 'move',
+  'screenshot_id': 30,
+  'screenshot_timestamp': 1737896652.6979296,
+  'timestamp': 1737896652.6993794,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 38,
+  'mouse_button_name': 'left',
+  'mouse_pressed': True,
+  'mouse_x': 995,
+  'mouse_y': 745,
+  'name': 'click',
+  'screenshot_id': 31,
+  'screenshot_timestamp': 1737896652.9542353,
+  'timestamp': 1737896652.9598913,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 39,
+  'mouse_button_name': 'left',
+  'mouse_pressed': False,
+  'mouse_x': 995,
+  'mouse_y': 745,
+  'name': 'click',
+  'screenshot_id': 32,
+  'screenshot_timestamp': 1737896653.0373192,
+  'timestamp': 1737896653.0410721,
+  'window_event_id': 1,
+  'window_event_timestamp': 1737896643.7310107},
+ {'id': 40,
+  'mouse_x': 992,
+  'mouse_y': 744,
+  'name': 'move',
+  'screenshot_id': 33,
+  'screenshot_timestamp': 1737896656.1362767,
+  'timestamp': 1737896656.1393437,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 41,
+  'mouse_x': 985,
+  'mouse_y': 742,
+  'name': 'move',
+  'screenshot_id': 34,
+  'screenshot_timestamp': 1737896656.1984437,
+  'timestamp': 1737896656.2009914,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 42,
+  'mouse_x': 977,
+  'mouse_y': 738,
+  'name': 'move',
+  'screenshot_id': 34,
+  'screenshot_timestamp': 1737896656.1984437,
+  'timestamp': 1737896656.2010407,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 43,
+  'mouse_x': 967,
+  'mouse_y': 734,
+  'name': 'move',
+  'screenshot_id': 34,
+  'screenshot_timestamp': 1737896656.1984437,
+  'timestamp': 1737896656.2010667,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 44,
+  'mouse_x': 945,
+  'mouse_y': 722,
+  'name': 'move',
+  'screenshot_id': 35,
+  'screenshot_timestamp': 1737896656.2082613,
+  'timestamp': 1737896656.2093792,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 45,
+  'mouse_x': 874,
+  'mouse_y': 678,
+  'name': 'move',
+  'screenshot_id': 36,
+  'screenshot_timestamp': 1737896656.2687774,
+  'timestamp': 1737896656.27081,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 46,
+  'mouse_x': 843,
+  'mouse_y': 649,
+  'name': 'move',
+  'screenshot_id': 37,
+  'screenshot_timestamp': 1737896656.2796667,
+  'timestamp': 1737896656.2808886,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 47,
+  'mouse_x': 810,
+  'mouse_y': 610,
+  'name': 'move',
+  'screenshot_id': 37,
+  'screenshot_timestamp': 1737896656.2796667,
+  'timestamp': 1737896656.2820783,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 48,
+  'mouse_x': 773,
+  'mouse_y': 563,
+  'name': 'move',
+  'screenshot_id': 38,
+  'screenshot_timestamp': 1737896656.337698,
+  'timestamp': 1737896656.3429222,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 49,
+  'mouse_x': 734,
+  'mouse_y': 515,
+  'name': 'move',
+  'screenshot_id': 39,
+  'screenshot_timestamp': 1737896656.3514268,
+  'timestamp': 1737896656.357693,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 50,
+  'mouse_x': 697,
+  'mouse_y': 474,
+  'name': 'move',
+  'screenshot_id': 39,
+  'screenshot_timestamp': 1737896656.3514268,
+  'timestamp': 1737896656.3577473,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 51,
+  'mouse_x': 663,
+  'mouse_y': 440,
+  'name': 'move',
+  'screenshot_id': 39,
+  'screenshot_timestamp': 1737896656.3514268,
+  'timestamp': 1737896656.3577733,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 52,
+  'mouse_x': 630,
+  'mouse_y': 407,
+  'name': 'move',
+  'screenshot_id': 40,
+  'screenshot_timestamp': 1737896656.3787496,
+  'timestamp': 1737896656.3793278,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 53,
+  'mouse_x': 603,
+  'mouse_y': 382,
+  'name': 'move',
+  'screenshot_id': 40,
+  'screenshot_timestamp': 1737896656.3787496,
+  'timestamp': 1737896656.3837395,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 54,
+  'mouse_x': 589,
+  'mouse_y': 371,
+  'name': 'move',
+  'screenshot_id': 41,
+  'screenshot_timestamp': 1737896656.4112623,
+  'timestamp': 1737896656.4134457,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 55,
+  'mouse_x': 583,
+  'mouse_y': 370,
+  'name': 'move',
+  'screenshot_id': 42,
+  'screenshot_timestamp': 1737896656.4252107,
+  'timestamp': 1737896656.4297419,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 56,
+  'mouse_x': 573,
+  'mouse_y': 371,
+  'name': 'move',
+  'screenshot_id': 43,
+  'screenshot_timestamp': 1737896656.4411225,
+  'timestamp': 1737896656.4438603,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 57,
+  'mouse_x': 563,
+  'mouse_y': 373,
+  'name': 'move',
+  'screenshot_id': 44,
+  'screenshot_timestamp': 1737896656.4595015,
+  'timestamp': 1737896656.463276,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 58,
+  'mouse_x': 559,
+  'mouse_y': 374,
+  'name': 'move',
+  'screenshot_id': 45,
+  'screenshot_timestamp': 1737896656.475389,
+  'timestamp': 1737896656.4757504,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 59,
+  'mouse_x': 558,
+  'mouse_y': 374,
+  'name': 'move',
+  'screenshot_id': 46,
+  'screenshot_timestamp': 1737896656.4958162,
+  'timestamp': 1737896656.5000343,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 60,
+  'mouse_x': 535,
+  'mouse_y': 373,
+  'name': 'move',
+  'screenshot_id': 47,
+  'screenshot_timestamp': 1737896656.5116296,
+  'timestamp': 1737896656.514444,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 61,
+  'mouse_x': 528,
+  'mouse_y': 372,
+  'name': 'move',
+  'screenshot_id': 48,
+  'screenshot_timestamp': 1737896656.5340986,
+  'timestamp': 1737896656.5376534,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 62,
+  'mouse_x': 446,
+  'mouse_y': 357,
+  'name': 'move',
+  'screenshot_id': 49,
+  'screenshot_timestamp': 1737896656.5476875,
+  'timestamp': 1737896656.5540252,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 63,
+  'mouse_x': 404,
+  'mouse_y': 347,
+  'name': 'move',
+  'screenshot_id': 50,
+  'screenshot_timestamp': 1737896656.5564847,
+  'timestamp': 1737896656.5587595,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 64,
+  'mouse_x': 366,
+  'mouse_y': 334,
+  'name': 'move',
+  'screenshot_id': 51,
+  'screenshot_timestamp': 1737896656.5708802,
+  'timestamp': 1737896656.5752704,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 65,
+  'mouse_x': 313,
+  'mouse_y': 314,
+  'name': 'move',
+  'screenshot_id': 52,
+  'screenshot_timestamp': 1737896656.5920742,
+  'timestamp': 1737896656.5971758,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 66,
+  'mouse_x': 255,
+  'mouse_y': 288,
+  'name': 'move',
+  'screenshot_id': 53,
+  'screenshot_timestamp': 1737896656.613155,
+  'timestamp': 1737896656.6135268,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 67,
+  'mouse_x': 210,
+  'mouse_y': 265,
+  'name': 'move',
+  'screenshot_id': 54,
+  'screenshot_timestamp': 1737896656.6257925,
+  'timestamp': 1737896656.6356223,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 68,
+  'mouse_x': 181,
+  'mouse_y': 253,
+  'name': 'move',
+  'screenshot_id': 55,
+  'screenshot_timestamp': 1737896656.6468005,
+  'timestamp': 1737896656.6501367,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 69,
+  'mouse_x': 158,
+  'mouse_y': 247,
+  'name': 'move',
+  'screenshot_id': 56,
+  'screenshot_timestamp': 1737896656.6847486,
+  'timestamp': 1737896656.6859534,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 70,
+  'mouse_x': 141,
+  'mouse_y': 244,
+  'name': 'move',
+  'screenshot_id': 57,
+  'screenshot_timestamp': 1737896656.686727,
+  'timestamp': 1737896656.6989136,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 71,
+  'mouse_x': 131,
+  'mouse_y': 244,
+  'name': 'move',
+  'screenshot_id': 58,
+  'screenshot_timestamp': 1737896656.6992545,
+  'timestamp': 1737896656.702844,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 72,
+  'mouse_x': 128,
+  'mouse_y': 244,
+  'name': 'move',
+  'screenshot_id': 59,
+  'screenshot_timestamp': 1737896656.737496,
+  'timestamp': 1737896656.7410116,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 73,
+  'mouse_x': 122,
+  'mouse_y': 249,
+  'name': 'move',
+  'screenshot_id': 59,
+  'screenshot_timestamp': 1737896656.737496,
+  'timestamp': 1737896656.7410707,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 74,
+  'mouse_x': 117,
+  'mouse_y': 259,
+  'name': 'move',
+  'screenshot_id': 60,
+  'screenshot_timestamp': 1737896656.7553554,
+  'timestamp': 1737896656.758051,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 75,
+  'mouse_x': 113,
+  'mouse_y': 271,
+  'name': 'move',
+  'screenshot_id': 61,
+  'screenshot_timestamp': 1737896656.7782636,
+  'timestamp': 1737896656.7820592,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 76,
+  'mouse_x': 110,
+  'mouse_y': 288,
+  'name': 'move',
+  'screenshot_id': 62,
+  'screenshot_timestamp': 1737896656.7887712,
+  'timestamp': 1737896656.7968888,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 77,
+  'mouse_x': 112,
+  'mouse_y': 308,
+  'name': 'move',
+  'screenshot_id': 63,
+  'screenshot_timestamp': 1737896656.82943,
+  'timestamp': 1737896656.8311224,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 78,
+  'mouse_x': 132,
+  'mouse_y': 345,
+  'name': 'move',
+  'screenshot_id': 64,
+  'screenshot_timestamp': 1737896656.8395631,
+  'timestamp': 1737896656.8402402,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 79,
+  'mouse_x': 145,
+  'mouse_y': 358,
+  'name': 'move',
+  'screenshot_id': 65,
+  'screenshot_timestamp': 1737896656.8567572,
+  'timestamp': 1737896656.8598914,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 80,
+  'mouse_x': 153,
+  'mouse_y': 365,
+  'name': 'move',
+  'screenshot_id': 66,
+  'screenshot_timestamp': 1737896656.8716507,
+  'timestamp': 1737896656.8734715,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 81,
+  'mouse_x': 163,
+  'mouse_y': 371,
+  'name': 'move',
+  'screenshot_id': 67,
+  'screenshot_timestamp': 1737896656.8987293,
+  'timestamp': 1737896656.9053924,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 82,
+  'mouse_x': 171,
+  'mouse_y': 375,
+  'name': 'move',
+  'screenshot_id': 68,
+  'screenshot_timestamp': 1737896656.9097493,
+  'timestamp': 1737896656.9116647,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 83,
+  'mouse_x': 175,
+  'mouse_y': 376,
+  'name': 'move',
+  'screenshot_id': 69,
+  'screenshot_timestamp': 1737896656.9342778,
+  'timestamp': 1737896656.9345024,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 84,
+  'mouse_x': 176,
+  'mouse_y': 376,
+  'name': 'move',
+  'screenshot_id': 70,
+  'screenshot_timestamp': 1737896656.9511557,
+  'timestamp': 1737896656.953023,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 85,
+  'mouse_x': 176,
+  'mouse_y': 377,
+  'name': 'move',
+  'screenshot_id': 71,
+  'screenshot_timestamp': 1737896657.0816255,
+  'timestamp': 1737896657.082009,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 86,
+  'mouse_x': 176,
+  'mouse_y': 379,
+  'name': 'move',
+  'screenshot_id': 71,
+  'screenshot_timestamp': 1737896657.0816255,
+  'timestamp': 1737896657.08211,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 87,
+  'mouse_x': 176,
+  'mouse_y': 381,
+  'name': 'move',
+  'screenshot_id': 71,
+  'screenshot_timestamp': 1737896657.0816255,
+  'timestamp': 1737896657.0822742,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 88,
+  'mouse_x': 176,
+  'mouse_y': 382,
+  'name': 'move',
+  'screenshot_id': 72,
+  'screenshot_timestamp': 1737896657.1422114,
+  'timestamp': 1737896657.1424494,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 89,
+  'mouse_x': 176,
+  'mouse_y': 385,
+  'name': 'move',
+  'screenshot_id': 72,
+  'screenshot_timestamp': 1737896657.1422114,
+  'timestamp': 1737896657.1424906,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 90,
+  'mouse_x': 176,
+  'mouse_y': 387,
+  'name': 'move',
+  'screenshot_id': 72,
+  'screenshot_timestamp': 1737896657.1422114,
+  'timestamp': 1737896657.1425178,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 91,
+  'mouse_x': 176,
+  'mouse_y': 390,
+  'name': 'move',
+  'screenshot_id': 73,
+  'screenshot_timestamp': 1737896657.1608756,
+  'timestamp': 1737896657.1637053,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 92,
+  'mouse_x': 176,
+  'mouse_y': 392,
+  'name': 'move',
+  'screenshot_id': 74,
+  'screenshot_timestamp': 1737896657.1843584,
+  'timestamp': 1737896657.1859715,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 93,
+  'mouse_x': 176,
+  'mouse_y': 393,
+  'name': 'move',
+  'screenshot_id': 75,
+  'screenshot_timestamp': 1737896657.195655,
+  'timestamp': 1737896657.1971805,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 94,
+  'mouse_x': 176,
+  'mouse_y': 394,
+  'name': 'move',
+  'screenshot_id': 76,
+  'screenshot_timestamp': 1737896657.2206223,
+  'timestamp': 1737896657.2257342,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 95,
+  'mouse_x': 176,
+  'mouse_y': 395,
+  'name': 'move',
+  'screenshot_id': 76,
+  'screenshot_timestamp': 1737896657.2206223,
+  'timestamp': 1737896657.2257884,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 96,
+  'mouse_x': 176,
+  'mouse_y': 396,
+  'name': 'move',
+  'screenshot_id': 77,
+  'screenshot_timestamp': 1737896657.2366471,
+  'timestamp': 1737896657.2392254,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 97,
+  'mouse_button_name': 'left',
+  'mouse_pressed': True,
+  'mouse_x': 176,
+  'mouse_y': 396,
+  'name': 'click',
+  'screenshot_id': 78,
+  'screenshot_timestamp': 1737896658.0803058,
+  'timestamp': 1737896658.0843153,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 98,
+  'mouse_button_name': 'left',
+  'mouse_pressed': False,
+  'mouse_x': 176,
+  'mouse_y': 396,
+  'name': 'click',
+  'screenshot_id': 79,
+  'screenshot_timestamp': 1737896658.186269,
+  'timestamp': 1737896658.1876867,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 99,
+  'mouse_x': 174,
+  'mouse_y': 396,
+  'name': 'move',
+  'screenshot_id': 80,
+  'screenshot_timestamp': 1737896658.2505164,
+  'timestamp': 1737896658.2527184,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 100,
+  'mouse_x': 173,
+  'mouse_y': 396,
+  'name': 'move',
+  'screenshot_id': 80,
+  'screenshot_timestamp': 1737896658.2505164,
+  'timestamp': 1737896658.25277,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 101,
+  'mouse_x': 172,
+  'mouse_y': 396,
+  'name': 'move',
+  'screenshot_id': 81,
+  'screenshot_timestamp': 1737896658.2600105,
+  'timestamp': 1737896658.263151,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 102,
+  'mouse_x': 171,
+  'mouse_y': 396,
+  'name': 'move',
+  'screenshot_id': 82,
+  'screenshot_timestamp': 1737896658.312609,
+  'timestamp': 1737896658.3148658,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 103,
+  'mouse_x': 173,
+  'mouse_y': 394,
+  'name': 'move',
+  'screenshot_id': 83,
+  'screenshot_timestamp': 1737896658.404464,
+  'timestamp': 1737896658.405717,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 104,
+  'mouse_x': 176,
+  'mouse_y': 392,
+  'name': 'move',
+  'screenshot_id': 83,
+  'screenshot_timestamp': 1737896658.404464,
+  'timestamp': 1737896658.4057658,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 105,
+  'mouse_x': 181,
+  'mouse_y': 389,
+  'name': 'move',
+  'screenshot_id': 84,
+  'screenshot_timestamp': 1737896658.4643486,
+  'timestamp': 1737896658.46837,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 106,
+  'mouse_x': 192,
+  'mouse_y': 385,
+  'name': 'move',
+  'screenshot_id': 84,
+  'screenshot_timestamp': 1737896658.4643486,
+  'timestamp': 1737896658.4684174,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 107,
+  'mouse_x': 220,
+  'mouse_y': 375,
+  'name': 'move',
+  'screenshot_id': 84,
+  'screenshot_timestamp': 1737896658.4643486,
+  'timestamp': 1737896658.4684422,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 108,
+  'mouse_x': 230,
+  'mouse_y': 371,
+  'name': 'move',
+  'screenshot_id': 85,
+  'screenshot_timestamp': 1737896658.5215046,
+  'timestamp': 1737896658.5229523,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 109,
+  'mouse_x': 243,
+  'mouse_y': 367,
+  'name': 'move',
+  'screenshot_id': 85,
+  'screenshot_timestamp': 1737896658.5215046,
+  'timestamp': 1737896658.5230024,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 110,
+  'mouse_x': 254,
+  'mouse_y': 364,
+  'name': 'move',
+  'screenshot_id': 86,
+  'screenshot_timestamp': 1737896658.532297,
+  'timestamp': 1737896658.535176,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 111,
+  'mouse_x': 260,
+  'mouse_y': 363,
+  'name': 'move',
+  'screenshot_id': 86,
+  'screenshot_timestamp': 1737896658.532297,
+  'timestamp': 1737896658.5362704,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 112,
+  'mouse_x': 270,
+  'mouse_y': 361,
+  'name': 'move',
+  'screenshot_id': 87,
+  'screenshot_timestamp': 1737896658.550262,
+  'timestamp': 1737896658.5567994,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 113,
+  'mouse_x': 277,
+  'mouse_y': 359,
+  'name': 'move',
+  'screenshot_id': 88,
+  'screenshot_timestamp': 1737896658.5656142,
+  'timestamp': 1737896658.5690002,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 114,
+  'mouse_x': 285,
+  'mouse_y': 358,
+  'name': 'move',
+  'screenshot_id': 89,
+  'screenshot_timestamp': 1737896658.5783906,
+  'timestamp': 1737896658.5838542,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 115,
+  'mouse_x': 291,
+  'mouse_y': 358,
+  'name': 'move',
+  'screenshot_id': 90,
+  'screenshot_timestamp': 1737896658.5963264,
+  'timestamp': 1737896658.6040401,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 116,
+  'mouse_x': 300,
+  'mouse_y': 358,
+  'name': 'move',
+  'screenshot_id': 91,
+  'screenshot_timestamp': 1737896658.6138546,
+  'timestamp': 1737896658.620181,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 117,
+  'mouse_x': 308,
+  'mouse_y': 358,
+  'name': 'move',
+  'screenshot_id': 92,
+  'screenshot_timestamp': 1737896658.6720915,
+  'timestamp': 1737896658.686108,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 118,
+  'mouse_x': 323,
+  'mouse_y': 358,
+  'name': 'move',
+  'screenshot_id': 93,
+  'screenshot_timestamp': 1737896658.6979182,
+  'timestamp': 1737896658.7020588,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 119,
+  'mouse_x': 329,
+  'mouse_y': 359,
+  'name': 'move',
+  'screenshot_id': 93,
+  'screenshot_timestamp': 1737896658.6979182,
+  'timestamp': 1737896658.7021906,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 120,
+  'mouse_x': 333,
+  'mouse_y': 360,
+  'name': 'move',
+  'screenshot_id': 93,
+  'screenshot_timestamp': 1737896658.6979182,
+  'timestamp': 1737896658.7022703,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 121,
+  'mouse_x': 336,
+  'mouse_y': 361,
+  'name': 'move',
+  'screenshot_id': 94,
+  'screenshot_timestamp': 1737896658.7144043,
+  'timestamp': 1737896658.7165573,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 122,
+  'mouse_x': 342,
+  'mouse_y': 363,
+  'name': 'move',
+  'screenshot_id': 95,
+  'screenshot_timestamp': 1737896658.7252676,
+  'timestamp': 1737896658.7294638,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 123,
+  'mouse_x': 345,
+  'mouse_y': 364,
+  'name': 'move',
+  'screenshot_id': 96,
+  'screenshot_timestamp': 1737896658.7497315,
+  'timestamp': 1737896658.7518313,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 124,
+  'mouse_x': 347,
+  'mouse_y': 364,
+  'name': 'move',
+  'screenshot_id': 97,
+  'screenshot_timestamp': 1737896658.7617512,
+  'timestamp': 1737896658.7638743,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 125,
+  'mouse_x': 349,
+  'mouse_y': 365,
+  'name': 'move',
+  'screenshot_id': 98,
+  'screenshot_timestamp': 1737896658.7795649,
+  'timestamp': 1737896658.780841,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 126,
+  'mouse_x': 350,
+  'mouse_y': 366,
+  'name': 'move',
+  'screenshot_id': 99,
+  'screenshot_timestamp': 1737896658.800659,
+  'timestamp': 1737896658.8031137,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 127,
+  'mouse_x': 350,
+  'mouse_y': 367,
+  'name': 'move',
+  'screenshot_id': 100,
+  'screenshot_timestamp': 1737896658.850337,
+  'timestamp': 1737896658.8516598,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 128,
+  'mouse_x': 350,
+  'mouse_y': 368,
+  'name': 'move',
+  'screenshot_id': 101,
+  'screenshot_timestamp': 1737896658.8743165,
+  'timestamp': 1737896658.880393,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 129,
+  'mouse_x': 350,
+  'mouse_y': 369,
+  'name': 'move',
+  'screenshot_id': 102,
+  'screenshot_timestamp': 1737896658.9076934,
+  'timestamp': 1737896658.9154093,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 130,
+  'mouse_x': 349,
+  'mouse_y': 369,
+  'name': 'move',
+  'screenshot_id': 103,
+  'screenshot_timestamp': 1737896658.9587307,
+  'timestamp': 1737896658.9672198,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 131,
+  'mouse_x': 348,
+  'mouse_y': 369,
+  'name': 'move',
+  'screenshot_id': 104,
+  'screenshot_timestamp': 1737896659.012635,
+  'timestamp': 1737896659.0173292,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 132,
+  'mouse_x': 346,
+  'mouse_y': 368,
+  'name': 'move',
+  'screenshot_id': 104,
+  'screenshot_timestamp': 1737896659.012635,
+  'timestamp': 1737896659.0173776,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 133,
+  'mouse_x': 345,
+  'mouse_y': 367,
+  'name': 'move',
+  'screenshot_id': 105,
+  'screenshot_timestamp': 1737896659.0263255,
+  'timestamp': 1737896659.0380797,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 134,
+  'mouse_x': 344,
+  'mouse_y': 367,
+  'name': 'move',
+  'screenshot_id': 106,
+  'screenshot_timestamp': 1737896659.0752099,
+  'timestamp': 1737896659.0902867,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 135,
+  'mouse_x': 343,
+  'mouse_y': 365,
+  'name': 'move',
+  'screenshot_id': 106,
+  'screenshot_timestamp': 1737896659.0752099,
+  'timestamp': 1737896659.0903723,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 136,
+  'mouse_x': 343,
+  'mouse_y': 364,
+  'name': 'move',
+  'screenshot_id': 106,
+  'screenshot_timestamp': 1737896659.0752099,
+  'timestamp': 1737896659.090419,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 137,
+  'mouse_x': 343,
+  'mouse_y': 363,
+  'name': 'move',
+  'screenshot_id': 107,
+  'screenshot_timestamp': 1737896659.0969388,
+  'timestamp': 1737896659.1082723,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 138,
+  'mouse_x': 343,
+  'mouse_y': 362,
+  'name': 'move',
+  'screenshot_id': 108,
+  'screenshot_timestamp': 1737896659.1351247,
+  'timestamp': 1737896659.1353097,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 139,
+  'mouse_x': 342,
+  'mouse_y': 362,
+  'name': 'move',
+  'screenshot_id': 109,
+  'screenshot_timestamp': 1737896660.218686,
+  'timestamp': 1737896660.2241619,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 140,
+  'mouse_x': 341,
+  'mouse_y': 362,
+  'name': 'move',
+  'screenshot_id': 109,
+  'screenshot_timestamp': 1737896660.218686,
+  'timestamp': 1737896660.2242558,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 141,
+  'mouse_x': 324,
+  'mouse_y': 361,
+  'name': 'move',
+  'screenshot_id': 110,
+  'screenshot_timestamp': 1737896660.3617985,
+  'timestamp': 1737896660.364834,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 142,
+  'mouse_x': 323,
+  'mouse_y': 361,
+  'name': 'move',
+  'screenshot_id': 110,
+  'screenshot_timestamp': 1737896660.3617985,
+  'timestamp': 1737896660.364904,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 143,
+  'mouse_x': 322,
+  'mouse_y': 361,
+  'name': 'move',
+  'screenshot_id': 111,
+  'screenshot_timestamp': 1737896660.374771,
+  'timestamp': 1737896660.382339,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 144,
+  'mouse_x': 321,
+  'mouse_y': 360,
+  'name': 'move',
+  'screenshot_id': 112,
+  'screenshot_timestamp': 1737896660.4321587,
+  'timestamp': 1737896660.4338894,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 145,
+  'mouse_button_name': 'left',
+  'mouse_pressed': True,
+  'mouse_x': 321,
+  'mouse_y': 360,
+  'name': 'click',
+  'screenshot_id': 113,
+  'screenshot_timestamp': 1737896660.5190117,
+  'timestamp': 1737896660.522777,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 146,
+  'mouse_button_name': 'left',
+  'mouse_pressed': False,
+  'mouse_x': 321,
+  'mouse_y': 360,
+  'name': 'click',
+  'screenshot_id': 114,
+  'screenshot_timestamp': 1737896660.5920806,
+  'timestamp': 1737896660.5953212,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 147,
+  'mouse_x': 321,
+  'mouse_y': 361,
+  'name': 'move',
+  'screenshot_id': 115,
+  'screenshot_timestamp': 1737896660.6540618,
+  'timestamp': 1737896660.655325,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 148,
+  'mouse_x': 320,
+  'mouse_y': 362,
+  'name': 'move',
+  'screenshot_id': 115,
+  'screenshot_timestamp': 1737896660.6540618,
+  'timestamp': 1737896660.6570916,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 149,
+  'mouse_x': 319,
+  'mouse_y': 363,
+  'name': 'move',
+  'screenshot_id': 116,
+  'screenshot_timestamp': 1737896660.7127686,
+  'timestamp': 1737896660.7145665,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 150,
+  'mouse_x': 317,
+  'mouse_y': 364,
+  'name': 'move',
+  'screenshot_id': 116,
+  'screenshot_timestamp': 1737896660.7127686,
+  'timestamp': 1737896660.714619,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 151,
+  'mouse_x': 312,
+  'mouse_y': 367,
+  'name': 'move',
+  'screenshot_id': 116,
+  'screenshot_timestamp': 1737896660.7127686,
+  'timestamp': 1737896660.7146459,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 152,
+  'mouse_x': 307,
+  'mouse_y': 370,
+  'name': 'move',
+  'screenshot_id': 117,
+  'screenshot_timestamp': 1737896660.7320561,
+  'timestamp': 1737896660.74065,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 153,
+  'mouse_x': 300,
+  'mouse_y': 374,
+  'name': 'move',
+  'screenshot_id': 118,
+  'screenshot_timestamp': 1737896660.748916,
+  'timestamp': 1737896660.7503452,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 154,
+  'mouse_x': 296,
+  'mouse_y': 377,
+  'name': 'move',
+  'screenshot_id': 119,
+  'screenshot_timestamp': 1737896660.7687242,
+  'timestamp': 1737896660.7690535,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 155,
+  'mouse_x': 291,
+  'mouse_y': 380,
+  'name': 'move',
+  'screenshot_id': 120,
+  'screenshot_timestamp': 1737896660.7804432,
+  'timestamp': 1737896660.7890575,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 156,
+  'mouse_x': 287,
+  'mouse_y': 382,
+  'name': 'move',
+  'screenshot_id': 121,
+  'screenshot_timestamp': 1737896660.8040419,
+  'timestamp': 1737896660.804786,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 157,
+  'mouse_x': 284,
+  'mouse_y': 384,
+  'name': 'move',
+  'screenshot_id': 122,
+  'screenshot_timestamp': 1737896660.8162456,
+  'timestamp': 1737896660.8214884,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 158,
+  'mouse_x': 281,
+  'mouse_y': 386,
+  'name': 'move',
+  'screenshot_id': 123,
+  'screenshot_timestamp': 1737896660.8351283,
+  'timestamp': 1737896660.8447347,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 159,
+  'mouse_x': 278,
+  'mouse_y': 388,
+  'name': 'move',
+  'screenshot_id': 124,
+  'screenshot_timestamp': 1737896660.8527138,
+  'timestamp': 1737896660.8572826,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 160,
+  'mouse_x': 276,
+  'mouse_y': 390,
+  'name': 'move',
+  'screenshot_id': 125,
+  'screenshot_timestamp': 1737896660.8718598,
+  'timestamp': 1737896660.8751345,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 161,
+  'mouse_x': 274,
+  'mouse_y': 391,
+  'name': 'move',
+  'screenshot_id': 126,
+  'screenshot_timestamp': 1737896660.902001,
+  'timestamp': 1737896660.902391,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 162,
+  'mouse_x': 272,
+  'mouse_y': 392,
+  'name': 'move',
+  'screenshot_id': 127,
+  'screenshot_timestamp': 1737896660.9108026,
+  'timestamp': 1737896660.91865,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 163,
+  'mouse_x': 271,
+  'mouse_y': 393,
+  'name': 'move',
+  'screenshot_id': 128,
+  'screenshot_timestamp': 1737896660.932574,
+  'timestamp': 1737896660.9347804,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 164,
+  'mouse_x': 269,
+  'mouse_y': 393,
+  'name': 'move',
+  'screenshot_id': 129,
+  'screenshot_timestamp': 1737896660.9438112,
+  'timestamp': 1737896660.953953,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 165,
+  'mouse_x': 267,
+  'mouse_y': 394,
+  'name': 'move',
+  'screenshot_id': 130,
+  'screenshot_timestamp': 1737896660.9753647,
+  'timestamp': 1737896660.9759343,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 166,
+  'mouse_x': 265,
+  'mouse_y': 395,
+  'name': 'move',
+  'screenshot_id': 131,
+  'screenshot_timestamp': 1737896660.9770648,
+  'timestamp': 1737896660.9880092,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 167,
+  'mouse_x': 262,
+  'mouse_y': 396,
+  'name': 'move',
+  'screenshot_id': 132,
+  'screenshot_timestamp': 1737896660.992968,
+  'timestamp': 1737896660.9975853,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 168,
+  'mouse_x': 260,
+  'mouse_y': 397,
+  'name': 'move',
+  'screenshot_id': 133,
+  'screenshot_timestamp': 1737896661.021108,
+  'timestamp': 1737896661.0233674,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 169,
+  'mouse_x': 259,
+  'mouse_y': 397,
+  'name': 'move',
+  'screenshot_id': 134,
+  'screenshot_timestamp': 1737896661.038751,
+  'timestamp': 1737896661.0414414,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 170,
+  'mouse_x': 258,
+  'mouse_y': 398,
+  'name': 'move',
+  'screenshot_id': 135,
+  'screenshot_timestamp': 1737896661.0545206,
+  'timestamp': 1737896661.0548794,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 171,
+  'mouse_x': 257,
+  'mouse_y': 398,
+  'name': 'move',
+  'screenshot_id': 136,
+  'screenshot_timestamp': 1737896661.0744293,
+  'timestamp': 1737896661.0787036,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 172,
+  'mouse_x': 256,
+  'mouse_y': 398,
+  'name': 'move',
+  'screenshot_id': 137,
+  'screenshot_timestamp': 1737896661.1025558,
+  'timestamp': 1737896661.1027627,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 173,
+  'mouse_x': 255,
+  'mouse_y': 398,
+  'name': 'move',
+  'screenshot_id': 138,
+  'screenshot_timestamp': 1737896661.1222997,
+  'timestamp': 1737896661.1254303,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 174,
+  'mouse_button_name': 'left',
+  'mouse_pressed': True,
+  'mouse_x': 255,
+  'mouse_y': 398,
+  'name': 'click',
+  'screenshot_id': 139,
+  'screenshot_timestamp': 1737896662.0170841,
+  'timestamp': 1737896662.0200334,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 175,
+  'mouse_button_name': 'left',
+  'mouse_pressed': False,
+  'mouse_x': 255,
+  'mouse_y': 398,
+  'name': 'click',
+  'screenshot_id': 140,
+  'screenshot_timestamp': 1737896662.081044,
+  'timestamp': 1737896662.0841231,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 176,
+  'mouse_x': 257,
+  'mouse_y': 399,
+  'name': 'move',
+  'screenshot_id': 141,
+  'screenshot_timestamp': 1737896662.232119,
+  'timestamp': 1737896662.2336276,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 177,
+  'mouse_x': 259,
+  'mouse_y': 400,
+  'name': 'move',
+  'screenshot_id': 142,
+  'screenshot_timestamp': 1737896662.2368047,
+  'timestamp': 1737896662.2387538,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 178,
+  'mouse_x': 265,
+  'mouse_y': 401,
+  'name': 'move',
+  'screenshot_id': 143,
+  'screenshot_timestamp': 1737896662.3010616,
+  'timestamp': 1737896662.3022115,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 179,
+  'mouse_x': 278,
+  'mouse_y': 404,
+  'name': 'move',
+  'screenshot_id': 143,
+  'screenshot_timestamp': 1737896662.3010616,
+  'timestamp': 1737896662.3022528,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 180,
+  'mouse_x': 288,
+  'mouse_y': 406,
+  'name': 'move',
+  'screenshot_id': 143,
+  'screenshot_timestamp': 1737896662.3010616,
+  'timestamp': 1737896662.3022773,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 181,
+  'mouse_x': 300,
+  'mouse_y': 409,
+  'name': 'move',
+  'screenshot_id': 144,
+  'screenshot_timestamp': 1737896662.3081856,
+  'timestamp': 1737896662.3085535,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 182,
+  'mouse_x': 314,
+  'mouse_y': 411,
+  'name': 'move',
+  'screenshot_id': 145,
+  'screenshot_timestamp': 1737896662.3340423,
+  'timestamp': 1737896662.3352294,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 183,
+  'mouse_x': 328,
+  'mouse_y': 414,
+  'name': 'move',
+  'screenshot_id': 146,
+  'screenshot_timestamp': 1737896662.345471,
+  'timestamp': 1737896662.3468044,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 184,
+  'mouse_x': 338,
+  'mouse_y': 415,
+  'name': 'move',
+  'screenshot_id': 147,
+  'screenshot_timestamp': 1737896662.3741162,
+  'timestamp': 1737896662.37456,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 185,
+  'mouse_x': 348,
+  'mouse_y': 416,
+  'name': 'move',
+  'screenshot_id': 148,
+  'screenshot_timestamp': 1737896662.3836508,
+  'timestamp': 1737896662.3898554,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 186,
+  'mouse_x': 356,
+  'mouse_y': 417,
+  'name': 'move',
+  'screenshot_id': 149,
+  'screenshot_timestamp': 1737896662.3997831,
+  'timestamp': 1737896662.4017963,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 187,
+  'mouse_x': 361,
+  'mouse_y': 417,
+  'name': 'move',
+  'screenshot_id': 150,
+  'screenshot_timestamp': 1737896662.4205074,
+  'timestamp': 1737896662.4210362,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 188,
+  'mouse_x': 365,
+  'mouse_y': 417,
+  'name': 'move',
+  'screenshot_id': 151,
+  'screenshot_timestamp': 1737896662.4258738,
+  'timestamp': 1737896662.4380944,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 189,
+  'mouse_x': 368,
+  'mouse_y': 417,
+  'name': 'move',
+  'screenshot_id': 152,
+  'screenshot_timestamp': 1737896662.4604738,
+  'timestamp': 1737896662.4634113,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 190,
+  'mouse_x': 371,
+  'mouse_y': 416,
+  'name': 'move',
+  'screenshot_id': 153,
+  'screenshot_timestamp': 1737896662.468214,
+  'timestamp': 1737896662.4712803,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 191,
+  'mouse_x': 373,
+  'mouse_y': 416,
+  'name': 'move',
+  'screenshot_id': 154,
+  'screenshot_timestamp': 1737896662.4949267,
+  'timestamp': 1737896662.497019,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 192,
+  'mouse_x': 374,
+  'mouse_y': 416,
+  'name': 'move',
+  'screenshot_id': 155,
+  'screenshot_timestamp': 1737896662.5084524,
+  'timestamp': 1737896662.5099854,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 193,
+  'mouse_x': 375,
+  'mouse_y': 415,
+  'name': 'move',
+  'screenshot_id': 156,
+  'screenshot_timestamp': 1737896662.665988,
+  'timestamp': 1737896662.6675003,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 194,
+  'mouse_x': 375,
+  'mouse_y': 414,
+  'name': 'move',
+  'screenshot_id': 156,
+  'screenshot_timestamp': 1737896662.665988,
+  'timestamp': 1737896662.6675515,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 195,
+  'mouse_button_name': 'left',
+  'mouse_pressed': True,
+  'mouse_x': 375,
+  'mouse_y': 414,
+  'name': 'click',
+  'screenshot_id': 157,
+  'screenshot_timestamp': 1737896662.8742447,
+  'timestamp': 1737896662.8778105,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 196,
+  'mouse_button_name': 'left',
+  'mouse_pressed': False,
+  'mouse_x': 375,
+  'mouse_y': 414,
+  'name': 'click',
+  'screenshot_id': 158,
+  'screenshot_timestamp': 1737896662.9166825,
+  'timestamp': 1737896662.9206197,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 197,
+  'mouse_x': 374,
+  'mouse_y': 416,
+  'name': 'move',
+  'screenshot_id': 159,
+  'screenshot_timestamp': 1737896665.6248481,
+  'timestamp': 1737896665.6270854,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 198,
+  'mouse_x': 370,
+  'mouse_y': 430,
+  'name': 'move',
+  'screenshot_id': 159,
+  'screenshot_timestamp': 1737896665.6248481,
+  'timestamp': 1737896665.6273983,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 199,
+  'mouse_x': 363,
+  'mouse_y': 455,
+  'name': 'move',
+  'screenshot_id': 159,
+  'screenshot_timestamp': 1737896665.6248481,
+  'timestamp': 1737896665.6275697,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 200,
+  'mouse_x': 358,
+  'mouse_y': 479,
+  'name': 'move',
+  'screenshot_id': 160,
+  'screenshot_timestamp': 1737896665.6440668,
+  'timestamp': 1737896665.652083,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 201,
+  'mouse_x': 357,
+  'mouse_y': 499,
+  'name': 'move',
+  'screenshot_id': 161,
+  'screenshot_timestamp': 1737896665.6573815,
+  'timestamp': 1737896665.6582131,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 202,
+  'mouse_x': 360,
+  'mouse_y': 515,
+  'name': 'move',
+  'screenshot_id': 162,
+  'screenshot_timestamp': 1737896665.6807585,
+  'timestamp': 1737896665.681679,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 203,
+  'mouse_x': 366,
+  'mouse_y': 528,
+  'name': 'move',
+  'screenshot_id': 163,
+  'screenshot_timestamp': 1737896665.698026,
+  'timestamp': 1737896665.7050102,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 204,
+  'mouse_x': 371,
+  'mouse_y': 535,
+  'name': 'move',
+  'screenshot_id': 164,
+  'screenshot_timestamp': 1737896665.7140918,
+  'timestamp': 1737896665.714487,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 205,
+  'mouse_x': 373,
+  'mouse_y': 538,
+  'name': 'move',
+  'screenshot_id': 165,
+  'screenshot_timestamp': 1737896665.7327747,
+  'timestamp': 1737896665.737779,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 206,
+  'mouse_x': 374,
+  'mouse_y': 539,
+  'name': 'move',
+  'screenshot_id': 166,
+  'screenshot_timestamp': 1737896665.7510252,
+  'timestamp': 1737896665.753102,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 207,
+  'mouse_button_name': 'left',
+  'mouse_pressed': True,
+  'mouse_x': 374,
+  'mouse_y': 539,
+  'name': 'click',
+  'screenshot_id': 167,
+  'screenshot_timestamp': 1737896665.9019437,
+  'timestamp': 1737896665.9042487,
+  'window_event_id': 2,
+  'window_event_timestamp': 1737896653.4216526},
+ {'id': 208,
+  'mouse_button_name': 'left',
+  'mouse_pressed': False,
+  'mouse_x': 374,
+  'mouse_y': 539,
+  'name': 'click',
+  'screenshot_id': 168,
+  'screenshot_timestamp': 1737896665.9637225,
+  'timestamp': 1737896665.9675117,
+  'window_event_id': 3,
+  'window_event_timestamp': 1737896665.9188533}]
+2025-01-26 16:00:23.293 | INFO     | openadapt.events:get_events:80 - num_process_iters=0 num_action_events=208 num_window_events=3 num_screenshots=174 num_browser_events=0
+2025-01-26 16:00:23.293 | INFO     | openadapt.events:merge_events:907 - before num_action_events=208 num_window_events=3 num_screenshots=174 num_browser_events=0 num_total=385
+2025-01-26 16:00:23.294 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='window_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.294 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='screenshot_timestamp' num_referred_events_removed=6
+2025-01-26 16:00:23.294 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='browser_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.295 | INFO     | openadapt.events:merge_consecutive_action_events:793 - name='redundant_mouse_move' num_events_removed=6
+2025-01-26 16:00:23.295 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='window_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.296 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='screenshot_timestamp' num_referred_events_removed=4
+2025-01-26 16:00:23.296 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='browser_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.296 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=1, name='move', timestamp=1737896651.9731925, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896651.9676237, screenshot_id=1, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=479, mouse_y=563, disabled=False)
+2025-01-26 16:00:23.296 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=2, name='move', timestamp=1737896652.0249407, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.0221767, screenshot_id=2, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=478, mouse_y=561, disabled=False)
+2025-01-26 16:00:23.296 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=3, name='move', timestamp=1737896652.0250723, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.0221767, screenshot_id=2, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=479, mouse_y=561, disabled=False)
+2025-01-26 16:00:23.296 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=4, name='move', timestamp=1737896652.0253096, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.0221767, screenshot_id=2, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=483, mouse_y=561, disabled=False)
+2025-01-26 16:00:23.296 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=5, name='move', timestamp=1737896652.025664, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.0221767, screenshot_id=2, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=487, mouse_y=561, disabled=False)
+2025-01-26 16:00:23.297 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=6, name='move', timestamp=1737896652.0480416, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.0434828, screenshot_id=3, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=494, mouse_y=562, disabled=False)
+2025-01-26 16:00:23.297 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=7, name='move', timestamp=1737896652.0619256, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.0580597, screenshot_id=4, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=516, mouse_y=566, disabled=False)
+2025-01-26 16:00:23.297 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=8, name='move', timestamp=1737896652.0793374, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.076737, screenshot_id=5, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=538, mouse_y=571, disabled=False)
+2025-01-26 16:00:23.297 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=9, name='move', timestamp=1737896652.1138272, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.1093345, screenshot_id=6, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=561, mouse_y=576, disabled=False)
+2025-01-26 16:00:23.297 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=10, name='move', timestamp=1737896652.1139023, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.1093345, screenshot_id=6, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=585, mouse_y=584, disabled=False)
+2025-01-26 16:00:23.297 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=11, name='move', timestamp=1737896652.132953, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.1310222, screenshot_id=7, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=615, mouse_y=593, disabled=False)
+2025-01-26 16:00:23.298 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=12, name='move', timestamp=1737896652.160244, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.1498463, screenshot_id=8, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=648, mouse_y=602, disabled=False)
+2025-01-26 16:00:23.298 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=13, name='move', timestamp=1737896652.1712556, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.169762, screenshot_id=9, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=687, mouse_y=613, disabled=False)
+2025-01-26 16:00:23.298 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=14, name='move', timestamp=1737896652.1846275, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.1807094, screenshot_id=10, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=715, mouse_y=622, disabled=False)
+2025-01-26 16:00:23.298 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=15, name='move', timestamp=1737896652.2040927, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.2037525, screenshot_id=11, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=753, mouse_y=635, disabled=False)
+2025-01-26 16:00:23.298 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=16, name='move', timestamp=1737896652.225516, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.222142, screenshot_id=12, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=789, mouse_y=648, disabled=False)
+2025-01-26 16:00:23.298 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=17, name='move', timestamp=1737896652.2432475, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.2411153, screenshot_id=13, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=803, mouse_y=654, disabled=False)
+2025-01-26 16:00:23.298 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=18, name='move', timestamp=1737896652.2638829, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.2554681, screenshot_id=14, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=815, mouse_y=659, disabled=False)
+2025-01-26 16:00:23.299 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=19, name='move', timestamp=1737896652.2856717, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.2807627, screenshot_id=15, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=828, mouse_y=665, disabled=False)
+2025-01-26 16:00:23.299 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=20, name='move', timestamp=1737896652.3009806, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.2998123, screenshot_id=16, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=841, mouse_y=671, disabled=False)
+2025-01-26 16:00:23.299 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=21, name='move', timestamp=1737896652.3164797, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.3142579, screenshot_id=17, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=853, mouse_y=676, disabled=False)
+2025-01-26 16:00:23.299 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=22, name='move', timestamp=1737896652.3305862, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.3287914, screenshot_id=18, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=864, mouse_y=680, disabled=False)
+2025-01-26 16:00:23.299 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=23, name='move', timestamp=1737896652.3646135, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.348776, screenshot_id=19, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=878, mouse_y=685, disabled=False)
+2025-01-26 16:00:23.299 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=24, name='move', timestamp=1737896652.3784878, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.373807, screenshot_id=20, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=889, mouse_y=690, disabled=False)
+2025-01-26 16:00:23.299 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=25, name='move', timestamp=1737896652.385038, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.3801732, screenshot_id=21, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=911, mouse_y=698, disabled=False)
+2025-01-26 16:00:23.300 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=26, name='move', timestamp=1737896652.4093132, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.398785, screenshot_id=22, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=931, mouse_y=705, disabled=False)
+2025-01-26 16:00:23.300 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=27, name='move', timestamp=1737896652.4300542, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.4246802, screenshot_id=23, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=949, mouse_y=710, disabled=False)
+2025-01-26 16:00:23.300 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=28, name='move', timestamp=1737896652.4381402, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.4323182, screenshot_id=24, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=961, mouse_y=714, disabled=False)
+2025-01-26 16:00:23.300 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=29, name='move', timestamp=1737896652.460735, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.4582484, screenshot_id=25, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=973, mouse_y=718, disabled=False)
+2025-01-26 16:00:23.300 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=30, name='move', timestamp=1737896652.4821398, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.4741907, screenshot_id=26, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=975, mouse_y=720, disabled=False)
+2025-01-26 16:00:23.300 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=31, name='move', timestamp=1737896652.5250025, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.519866, screenshot_id=27, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=976, mouse_y=721, disabled=False)
+2025-01-26 16:00:23.300 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=32, name='move', timestamp=1737896652.633492, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.6316478, screenshot_id=28, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=976, mouse_y=722, disabled=False)
+2025-01-26 16:00:23.301 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=33, name='move', timestamp=1737896652.6335857, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.6316478, screenshot_id=28, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=977, mouse_y=727, disabled=False)
+2025-01-26 16:00:23.301 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=34, name='move', timestamp=1737896652.633614, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.6316478, screenshot_id=28, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=981, mouse_y=733, disabled=False)
+2025-01-26 16:00:23.301 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=35, name='move', timestamp=1737896652.6460376, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.6429117, screenshot_id=29, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=988, mouse_y=740, disabled=False)
+2025-01-26 16:00:23.301 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=36, name='move', timestamp=1737896652.6993423, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.6979296, screenshot_id=30, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=992, mouse_y=743, disabled=False)
+2025-01-26 16:00:23.301 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=38, name='click', timestamp=1737896652.9598541, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896652.9542353, screenshot_id=31, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=995, mouse_y=745, mouse_button_name='left', mouse_pressed=True, disabled=False)
+2025-01-26 16:00:23.301 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=39, name='click', timestamp=1737896653.041035, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896653.0373192, screenshot_id=32, window_event_timestamp=1737896643.7310107, window_event_id=1, mouse_x=995, mouse_y=745, mouse_button_name='left', mouse_pressed=False, disabled=False)
+2025-01-26 16:00:23.301 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=40, name='move', timestamp=1737896656.1393065, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.1362767, screenshot_id=33, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=992, mouse_y=744, disabled=False)
+2025-01-26 16:00:23.302 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=41, name='move', timestamp=1737896656.2009542, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.1984437, screenshot_id=34, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=985, mouse_y=742, disabled=False)
+2025-01-26 16:00:23.302 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=42, name='move', timestamp=1737896656.2010036, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.1984437, screenshot_id=34, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=977, mouse_y=738, disabled=False)
+2025-01-26 16:00:23.302 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=43, name='move', timestamp=1737896656.2010295, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.1984437, screenshot_id=34, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=967, mouse_y=734, disabled=False)
+2025-01-26 16:00:23.302 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=44, name='move', timestamp=1737896656.209342, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.2082613, screenshot_id=35, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=945, mouse_y=722, disabled=False)
+2025-01-26 16:00:23.302 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=45, name='move', timestamp=1737896656.2707727, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.2687774, screenshot_id=36, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=874, mouse_y=678, disabled=False)
+2025-01-26 16:00:23.302 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=46, name='move', timestamp=1737896656.2808514, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.2796667, screenshot_id=37, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=843, mouse_y=649, disabled=False)
+2025-01-26 16:00:23.303 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=47, name='move', timestamp=1737896656.282041, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.2796667, screenshot_id=37, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=810, mouse_y=610, disabled=False)
+2025-01-26 16:00:23.303 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=48, name='move', timestamp=1737896656.342885, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.337698, screenshot_id=38, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=773, mouse_y=563, disabled=False)
+2025-01-26 16:00:23.303 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=49, name='move', timestamp=1737896656.3576558, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.3514268, screenshot_id=39, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=734, mouse_y=515, disabled=False)
+2025-01-26 16:00:23.303 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=50, name='move', timestamp=1737896656.3577101, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.3514268, screenshot_id=39, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=697, mouse_y=474, disabled=False)
+2025-01-26 16:00:23.303 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=51, name='move', timestamp=1737896656.357736, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.3514268, screenshot_id=39, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=663, mouse_y=440, disabled=False)
+2025-01-26 16:00:23.303 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=52, name='move', timestamp=1737896656.3792906, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.3787496, screenshot_id=40, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=630, mouse_y=407, disabled=False)
+2025-01-26 16:00:23.303 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=53, name='move', timestamp=1737896656.3837023, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.3787496, screenshot_id=40, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=603, mouse_y=382, disabled=False)
+2025-01-26 16:00:23.304 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=54, name='move', timestamp=1737896656.4134085, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.4112623, screenshot_id=41, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=589, mouse_y=371, disabled=False)
+2025-01-26 16:00:23.304 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=55, name='move', timestamp=1737896656.4297047, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.4252107, screenshot_id=42, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=583, mouse_y=370, disabled=False)
+2025-01-26 16:00:23.304 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=56, name='move', timestamp=1737896656.443823, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.4411225, screenshot_id=43, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=573, mouse_y=371, disabled=False)
+2025-01-26 16:00:23.304 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=57, name='move', timestamp=1737896656.4632387, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.4595015, screenshot_id=44, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=563, mouse_y=373, disabled=False)
+2025-01-26 16:00:23.304 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=58, name='move', timestamp=1737896656.4757133, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.475389, screenshot_id=45, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=559, mouse_y=374, disabled=False)
+2025-01-26 16:00:23.304 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=59, name='move', timestamp=1737896656.4999971, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.4958162, screenshot_id=46, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=558, mouse_y=374, disabled=False)
+2025-01-26 16:00:23.304 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=60, name='move', timestamp=1737896656.514407, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.5116296, screenshot_id=47, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=535, mouse_y=373, disabled=False)
+2025-01-26 16:00:23.304 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=61, name='move', timestamp=1737896656.5376163, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.5340986, screenshot_id=48, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=528, mouse_y=372, disabled=False)
+2025-01-26 16:00:23.305 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=62, name='move', timestamp=1737896656.553988, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.5476875, screenshot_id=49, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=446, mouse_y=357, disabled=False)
+2025-01-26 16:00:23.305 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=63, name='move', timestamp=1737896656.5587223, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.5564847, screenshot_id=50, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=404, mouse_y=347, disabled=False)
+2025-01-26 16:00:23.305 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=64, name='move', timestamp=1737896656.5752332, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.5708802, screenshot_id=51, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=366, mouse_y=334, disabled=False)
+2025-01-26 16:00:23.305 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=65, name='move', timestamp=1737896656.5971386, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.5920742, screenshot_id=52, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=313, mouse_y=314, disabled=False)
+2025-01-26 16:00:23.305 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=66, name='move', timestamp=1737896656.6134896, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.613155, screenshot_id=53, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=255, mouse_y=288, disabled=False)
+2025-01-26 16:00:23.305 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=67, name='move', timestamp=1737896656.635585, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.6257925, screenshot_id=54, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=210, mouse_y=265, disabled=False)
+2025-01-26 16:00:23.306 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=68, name='move', timestamp=1737896656.6500995, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.6468005, screenshot_id=55, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=181, mouse_y=253, disabled=False)
+2025-01-26 16:00:23.306 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=69, name='move', timestamp=1737896656.6859162, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.6847486, screenshot_id=56, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=158, mouse_y=247, disabled=False)
+2025-01-26 16:00:23.306 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=70, name='move', timestamp=1737896656.6988764, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.686727, screenshot_id=57, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=141, mouse_y=244, disabled=False)
+2025-01-26 16:00:23.306 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=71, name='move', timestamp=1737896656.7028067, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.6992545, screenshot_id=58, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=131, mouse_y=244, disabled=False)
+2025-01-26 16:00:23.306 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=72, name='move', timestamp=1737896656.7409744, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.737496, screenshot_id=59, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=128, mouse_y=244, disabled=False)
+2025-01-26 16:00:23.306 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=73, name='move', timestamp=1737896656.7410336, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.737496, screenshot_id=59, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=122, mouse_y=249, disabled=False)
+2025-01-26 16:00:23.306 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=74, name='move', timestamp=1737896656.7580137, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.7553554, screenshot_id=60, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=117, mouse_y=259, disabled=False)
+2025-01-26 16:00:23.307 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=75, name='move', timestamp=1737896656.782022, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.7782636, screenshot_id=61, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=113, mouse_y=271, disabled=False)
+2025-01-26 16:00:23.307 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=76, name='move', timestamp=1737896656.7968516, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.7887712, screenshot_id=62, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=110, mouse_y=288, disabled=False)
+2025-01-26 16:00:23.307 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=77, name='move', timestamp=1737896656.8310852, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.82943, screenshot_id=63, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=112, mouse_y=308, disabled=False)
+2025-01-26 16:00:23.307 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=78, name='move', timestamp=1737896656.840203, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.8395631, screenshot_id=64, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=132, mouse_y=345, disabled=False)
+2025-01-26 16:00:23.307 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=79, name='move', timestamp=1737896656.8598542, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.8567572, screenshot_id=65, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=145, mouse_y=358, disabled=False)
+2025-01-26 16:00:23.307 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=80, name='move', timestamp=1737896656.8734343, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.8716507, screenshot_id=66, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=153, mouse_y=365, disabled=False)
+2025-01-26 16:00:23.307 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=81, name='move', timestamp=1737896656.9053552, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.8987293, screenshot_id=67, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=163, mouse_y=371, disabled=False)
+2025-01-26 16:00:23.308 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=82, name='move', timestamp=1737896656.9116275, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.9097493, screenshot_id=68, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=171, mouse_y=375, disabled=False)
+2025-01-26 16:00:23.308 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=83, name='move', timestamp=1737896656.9344652, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.9342778, screenshot_id=69, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=175, mouse_y=376, disabled=False)
+2025-01-26 16:00:23.308 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=84, name='move', timestamp=1737896656.9529858, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896656.9511557, screenshot_id=70, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=376, disabled=False)
+2025-01-26 16:00:23.308 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=85, name='move', timestamp=1737896657.081972, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.0816255, screenshot_id=71, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=377, disabled=False)
+2025-01-26 16:00:23.308 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=86, name='move', timestamp=1737896657.0820727, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.0816255, screenshot_id=71, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=379, disabled=False)
+2025-01-26 16:00:23.308 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=87, name='move', timestamp=1737896657.082237, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.0816255, screenshot_id=71, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=381, disabled=False)
+2025-01-26 16:00:23.308 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=88, name='move', timestamp=1737896657.1424122, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.1422114, screenshot_id=72, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=382, disabled=False)
+2025-01-26 16:00:23.309 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=89, name='move', timestamp=1737896657.1424534, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.1422114, screenshot_id=72, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=385, disabled=False)
+2025-01-26 16:00:23.309 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=90, name='move', timestamp=1737896657.1424806, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.1422114, screenshot_id=72, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=387, disabled=False)
+2025-01-26 16:00:23.309 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=91, name='move', timestamp=1737896657.1636682, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.1608756, screenshot_id=73, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=390, disabled=False)
+2025-01-26 16:00:23.309 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=92, name='move', timestamp=1737896657.1859343, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.1843584, screenshot_id=74, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=392, disabled=False)
+2025-01-26 16:00:23.309 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=93, name='move', timestamp=1737896657.1971433, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.195655, screenshot_id=75, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=393, disabled=False)
+2025-01-26 16:00:23.309 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=94, name='move', timestamp=1737896657.225697, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.2206223, screenshot_id=76, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=394, disabled=False)
+2025-01-26 16:00:23.309 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=95, name='move', timestamp=1737896657.2257512, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896657.2206223, screenshot_id=76, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=395, disabled=False)
+2025-01-26 16:00:23.310 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=97, name='click', timestamp=1737896658.070841, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.0803058, screenshot_id=78, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=396, mouse_button_name='left', mouse_pressed=True, disabled=False)
+2025-01-26 16:00:23.310 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=98, name='click', timestamp=1737896658.1742125, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.186269, screenshot_id=79, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=396, mouse_button_name='left', mouse_pressed=False, disabled=False)
+2025-01-26 16:00:23.310 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=99, name='move', timestamp=1737896658.2392442, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.2505164, screenshot_id=80, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=174, mouse_y=396, disabled=False)
+2025-01-26 16:00:23.310 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=100, name='move', timestamp=1737896658.2392957, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.2505164, screenshot_id=80, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=173, mouse_y=396, disabled=False)
+2025-01-26 16:00:23.310 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=101, name='move', timestamp=1737896658.2496767, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.2600105, screenshot_id=81, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=172, mouse_y=396, disabled=False)
+2025-01-26 16:00:23.310 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=102, name='move', timestamp=1737896658.3013916, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.312609, screenshot_id=82, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=171, mouse_y=396, disabled=False)
+2025-01-26 16:00:23.310 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=103, name='move', timestamp=1737896658.3922427, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.404464, screenshot_id=83, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=173, mouse_y=394, disabled=False)
+2025-01-26 16:00:23.310 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=104, name='move', timestamp=1737896658.3922915, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.404464, screenshot_id=83, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=176, mouse_y=392, disabled=False)
+2025-01-26 16:00:23.311 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=105, name='move', timestamp=1737896658.4548957, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.4643486, screenshot_id=84, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=181, mouse_y=389, disabled=False)
+2025-01-26 16:00:23.311 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=106, name='move', timestamp=1737896658.4549432, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.4643486, screenshot_id=84, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=192, mouse_y=385, disabled=False)
+2025-01-26 16:00:23.311 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=107, name='move', timestamp=1737896658.454968, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.4643486, screenshot_id=84, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=220, mouse_y=375, disabled=False)
+2025-01-26 16:00:23.311 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=108, name='move', timestamp=1737896658.509478, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.5215046, screenshot_id=85, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=230, mouse_y=371, disabled=False)
+2025-01-26 16:00:23.311 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=109, name='move', timestamp=1737896658.5095282, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.5215046, screenshot_id=85, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=243, mouse_y=367, disabled=False)
+2025-01-26 16:00:23.311 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=110, name='move', timestamp=1737896658.5217018, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.532297, screenshot_id=86, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=254, mouse_y=364, disabled=False)
+2025-01-26 16:00:23.311 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=111, name='move', timestamp=1737896658.5227962, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.532297, screenshot_id=86, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=260, mouse_y=363, disabled=False)
+2025-01-26 16:00:23.312 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=112, name='move', timestamp=1737896658.5433252, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.550262, screenshot_id=87, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=270, mouse_y=361, disabled=False)
+2025-01-26 16:00:23.312 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=113, name='move', timestamp=1737896658.555526, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.5656142, screenshot_id=88, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=277, mouse_y=359, disabled=False)
+2025-01-26 16:00:23.312 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=114, name='move', timestamp=1737896658.57038, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.5783906, screenshot_id=89, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=285, mouse_y=358, disabled=False)
+2025-01-26 16:00:23.312 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=115, name='move', timestamp=1737896658.590566, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.5963264, screenshot_id=90, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=291, mouse_y=358, disabled=False)
+2025-01-26 16:00:23.312 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=116, name='move', timestamp=1737896658.6067069, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.6138546, screenshot_id=91, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=300, mouse_y=358, disabled=False)
+2025-01-26 16:00:23.312 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=117, name='move', timestamp=1737896658.672634, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.6720915, screenshot_id=92, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=308, mouse_y=358, disabled=False)
+2025-01-26 16:00:23.313 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=118, name='move', timestamp=1737896658.6885846, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.6979182, screenshot_id=93, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=323, mouse_y=358, disabled=False)
+2025-01-26 16:00:23.313 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=119, name='move', timestamp=1737896658.6887164, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.6979182, screenshot_id=93, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=329, mouse_y=359, disabled=False)
+2025-01-26 16:00:23.313 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=120, name='move', timestamp=1737896658.688796, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.6979182, screenshot_id=93, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=333, mouse_y=360, disabled=False)
+2025-01-26 16:00:23.313 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=121, name='move', timestamp=1737896658.703083, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.7144043, screenshot_id=94, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=336, mouse_y=361, disabled=False)
+2025-01-26 16:00:23.313 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=122, name='move', timestamp=1737896658.7159896, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.7252676, screenshot_id=95, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=342, mouse_y=363, disabled=False)
+2025-01-26 16:00:23.313 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=123, name='move', timestamp=1737896658.738357, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.7497315, screenshot_id=96, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=345, mouse_y=364, disabled=False)
+2025-01-26 16:00:23.313 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=124, name='move', timestamp=1737896658.7504, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.7617512, screenshot_id=97, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=347, mouse_y=364, disabled=False)
+2025-01-26 16:00:23.313 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=125, name='move', timestamp=1737896658.767367, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.7795649, screenshot_id=98, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=349, mouse_y=365, disabled=False)
+2025-01-26 16:00:23.314 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=126, name='move', timestamp=1737896658.7896395, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.800659, screenshot_id=99, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=350, mouse_y=366, disabled=False)
+2025-01-26 16:00:23.314 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=127, name='move', timestamp=1737896658.8381855, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.850337, screenshot_id=100, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=350, mouse_y=367, disabled=False)
+2025-01-26 16:00:23.314 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=128, name='move', timestamp=1737896658.8669188, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.8743165, screenshot_id=101, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=350, mouse_y=368, disabled=False)
+2025-01-26 16:00:23.314 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=129, name='move', timestamp=1737896658.901935, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.9076934, screenshot_id=102, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=350, mouse_y=369, disabled=False)
+2025-01-26 16:00:23.314 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=130, name='move', timestamp=1737896658.9537456, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896658.9587307, screenshot_id=103, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=349, mouse_y=369, disabled=False)
+2025-01-26 16:00:23.314 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=131, name='move', timestamp=1737896659.003855, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896659.012635, screenshot_id=104, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=348, mouse_y=369, disabled=False)
+2025-01-26 16:00:23.314 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=132, name='move', timestamp=1737896659.0039034, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896659.012635, screenshot_id=104, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=346, mouse_y=368, disabled=False)
+2025-01-26 16:00:23.315 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=133, name='move', timestamp=1737896659.0246055, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896659.0263255, screenshot_id=105, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=345, mouse_y=367, disabled=False)
+2025-01-26 16:00:23.315 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=134, name='move', timestamp=1737896659.0768125, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896659.0752099, screenshot_id=106, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=344, mouse_y=367, disabled=False)
+2025-01-26 16:00:23.315 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=135, name='move', timestamp=1737896659.076898, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896659.0752099, screenshot_id=106, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=343, mouse_y=365, disabled=False)
+2025-01-26 16:00:23.315 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=136, name='move', timestamp=1737896659.0769448, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896659.0752099, screenshot_id=106, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=343, mouse_y=364, disabled=False)
+2025-01-26 16:00:23.315 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=137, name='move', timestamp=1737896659.094798, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896659.0969388, screenshot_id=107, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=343, mouse_y=363, disabled=False)
+2025-01-26 16:00:23.315 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=138, name='move', timestamp=1737896659.1218355, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896659.1351247, screenshot_id=108, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=343, mouse_y=362, disabled=False)
+2025-01-26 16:00:23.315 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=139, name='move', timestamp=1737896660.2106876, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.218686, screenshot_id=109, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=342, mouse_y=362, disabled=False)
+2025-01-26 16:00:23.316 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=140, name='move', timestamp=1737896660.2107816, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.218686, screenshot_id=109, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=341, mouse_y=362, disabled=False)
+2025-01-26 16:00:23.316 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=141, name='move', timestamp=1737896660.3513598, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.3617985, screenshot_id=110, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=324, mouse_y=361, disabled=False)
+2025-01-26 16:00:23.316 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=142, name='move', timestamp=1737896660.3514297, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.3617985, screenshot_id=110, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=323, mouse_y=361, disabled=False)
+2025-01-26 16:00:23.316 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=143, name='move', timestamp=1737896660.3688648, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.374771, screenshot_id=111, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=322, mouse_y=361, disabled=False)
+2025-01-26 16:00:23.316 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=145, name='click', timestamp=1737896660.4577525, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.5190117, screenshot_id=113, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=321, mouse_y=360, mouse_button_name='left', mouse_pressed=True, disabled=False)
+2025-01-26 16:00:23.316 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=146, name='click', timestamp=1737896660.5302966, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.5920806, screenshot_id=114, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=321, mouse_y=360, mouse_button_name='left', mouse_pressed=False, disabled=False)
+2025-01-26 16:00:23.316 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=147, name='move', timestamp=1737896660.5903003, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.6540618, screenshot_id=115, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=321, mouse_y=361, disabled=False)
+2025-01-26 16:00:23.317 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=148, name='move', timestamp=1737896660.592067, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.6540618, screenshot_id=115, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=320, mouse_y=362, disabled=False)
+2025-01-26 16:00:23.317 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=149, name='move', timestamp=1737896660.6495419, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.7127686, screenshot_id=116, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=319, mouse_y=363, disabled=False)
+2025-01-26 16:00:23.317 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=150, name='move', timestamp=1737896660.6495943, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.7127686, screenshot_id=116, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=317, mouse_y=364, disabled=False)
+2025-01-26 16:00:23.317 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=151, name='move', timestamp=1737896660.6496212, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.7127686, screenshot_id=116, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=312, mouse_y=367, disabled=False)
+2025-01-26 16:00:23.317 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=152, name='move', timestamp=1737896660.6756253, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.7320561, screenshot_id=117, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=307, mouse_y=370, disabled=False)
+2025-01-26 16:00:23.317 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=153, name='move', timestamp=1737896660.6853206, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.748916, screenshot_id=118, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=300, mouse_y=374, disabled=False)
+2025-01-26 16:00:23.317 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=154, name='move', timestamp=1737896660.7040288, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.7687242, screenshot_id=119, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=296, mouse_y=377, disabled=False)
+2025-01-26 16:00:23.318 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=155, name='move', timestamp=1737896660.7240329, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.7804432, screenshot_id=120, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=291, mouse_y=380, disabled=False)
+2025-01-26 16:00:23.318 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=156, name='move', timestamp=1737896660.7397614, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.8040419, screenshot_id=121, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=287, mouse_y=382, disabled=False)
+2025-01-26 16:00:23.318 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=157, name='move', timestamp=1737896660.7564638, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.8162456, screenshot_id=122, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=284, mouse_y=384, disabled=False)
+2025-01-26 16:00:23.318 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=158, name='move', timestamp=1737896660.77971, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.8351283, screenshot_id=123, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=281, mouse_y=386, disabled=False)
+2025-01-26 16:00:23.318 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=159, name='move', timestamp=1737896660.792258, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.8527138, screenshot_id=124, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=278, mouse_y=388, disabled=False)
+2025-01-26 16:00:23.318 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=160, name='move', timestamp=1737896660.8101099, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.8718598, screenshot_id=125, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=276, mouse_y=390, disabled=False)
+2025-01-26 16:00:23.318 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=161, name='move', timestamp=1737896660.8373663, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.902001, screenshot_id=126, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=274, mouse_y=391, disabled=False)
+2025-01-26 16:00:23.319 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=162, name='move', timestamp=1737896660.8536253, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.9108026, screenshot_id=127, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=272, mouse_y=392, disabled=False)
+2025-01-26 16:00:23.319 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=163, name='move', timestamp=1737896660.8697557, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.932574, screenshot_id=128, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=271, mouse_y=393, disabled=False)
+2025-01-26 16:00:23.319 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=164, name='move', timestamp=1737896660.8889284, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.9438112, screenshot_id=129, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=269, mouse_y=393, disabled=False)
+2025-01-26 16:00:23.319 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=165, name='move', timestamp=1737896660.9109097, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.9753647, screenshot_id=130, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=267, mouse_y=394, disabled=False)
+2025-01-26 16:00:23.319 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=166, name='move', timestamp=1737896660.9229846, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.9770648, screenshot_id=131, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=265, mouse_y=395, disabled=False)
+2025-01-26 16:00:23.319 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=167, name='move', timestamp=1737896660.9325607, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896660.992968, screenshot_id=132, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=262, mouse_y=396, disabled=False)
+2025-01-26 16:00:23.319 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=168, name='move', timestamp=1737896660.9583428, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896661.021108, screenshot_id=133, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=260, mouse_y=397, disabled=False)
+2025-01-26 16:00:23.320 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=169, name='move', timestamp=1737896660.9764168, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896661.038751, screenshot_id=134, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=259, mouse_y=397, disabled=False)
+2025-01-26 16:00:23.320 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=170, name='move', timestamp=1737896660.9898548, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896661.0545206, screenshot_id=135, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=258, mouse_y=398, disabled=False)
+2025-01-26 16:00:23.320 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=171, name='move', timestamp=1737896661.013679, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896661.0744293, screenshot_id=136, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=257, mouse_y=398, disabled=False)
+2025-01-26 16:00:23.320 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=172, name='move', timestamp=1737896661.037738, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896661.1025558, screenshot_id=137, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=256, mouse_y=398, disabled=False)
+2025-01-26 16:00:23.320 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=174, name='click', timestamp=1737896661.932341, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.0170841, screenshot_id=139, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=255, mouse_y=398, mouse_button_name='left', mouse_pressed=True, disabled=False)
+2025-01-26 16:00:23.320 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=175, name='click', timestamp=1737896661.9964309, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.081044, screenshot_id=140, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=255, mouse_y=398, mouse_button_name='left', mouse_pressed=False, disabled=False)
+2025-01-26 16:00:23.320 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=176, name='move', timestamp=1737896662.1459353, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.232119, screenshot_id=141, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=257, mouse_y=399, disabled=False)
+2025-01-26 16:00:23.320 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=177, name='move', timestamp=1737896662.1510615, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.2368047, screenshot_id=142, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=259, mouse_y=400, disabled=False)
+2025-01-26 16:00:23.321 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=178, name='move', timestamp=1737896662.2145193, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.3010616, screenshot_id=143, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=265, mouse_y=401, disabled=False)
+2025-01-26 16:00:23.321 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=179, name='move', timestamp=1737896662.2145605, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.3010616, screenshot_id=143, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=278, mouse_y=404, disabled=False)
+2025-01-26 16:00:23.321 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=180, name='move', timestamp=1737896662.214585, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.3010616, screenshot_id=143, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=288, mouse_y=406, disabled=False)
+2025-01-26 16:00:23.321 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=181, name='move', timestamp=1737896662.2208612, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.3081856, screenshot_id=144, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=300, mouse_y=409, disabled=False)
+2025-01-26 16:00:23.321 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=182, name='move', timestamp=1737896662.2475371, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.3340423, screenshot_id=145, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=314, mouse_y=411, disabled=False)
+2025-01-26 16:00:23.321 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=183, name='move', timestamp=1737896662.2591121, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.345471, screenshot_id=146, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=328, mouse_y=414, disabled=False)
+2025-01-26 16:00:23.322 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=184, name='move', timestamp=1737896662.2868679, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.3741162, screenshot_id=147, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=338, mouse_y=415, disabled=False)
+2025-01-26 16:00:23.322 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=185, name='move', timestamp=1737896662.3021631, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.3836508, screenshot_id=148, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=348, mouse_y=416, disabled=False)
+2025-01-26 16:00:23.322 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=186, name='move', timestamp=1737896662.314104, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.3997831, screenshot_id=149, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=356, mouse_y=417, disabled=False)
+2025-01-26 16:00:23.322 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=187, name='move', timestamp=1737896662.333344, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.4205074, screenshot_id=150, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=361, mouse_y=417, disabled=False)
+2025-01-26 16:00:23.322 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=188, name='move', timestamp=1737896662.350402, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.4258738, screenshot_id=151, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=365, mouse_y=417, disabled=False)
+2025-01-26 16:00:23.322 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=189, name='move', timestamp=1737896662.375719, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.4604738, screenshot_id=152, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=368, mouse_y=417, disabled=False)
+2025-01-26 16:00:23.322 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=190, name='move', timestamp=1737896662.383588, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.468214, screenshot_id=153, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=371, mouse_y=416, disabled=False)
+2025-01-26 16:00:23.322 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=191, name='move', timestamp=1737896662.4093268, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.4949267, screenshot_id=154, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=373, mouse_y=416, disabled=False)
+2025-01-26 16:00:23.323 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=192, name='move', timestamp=1737896662.4222932, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.5084524, screenshot_id=155, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=374, mouse_y=416, disabled=False)
+2025-01-26 16:00:23.323 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=193, name='move', timestamp=1737896662.579808, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.665988, screenshot_id=156, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=375, mouse_y=415, disabled=False)
+2025-01-26 16:00:23.323 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=195, name='click', timestamp=1737896662.790067, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.8742447, screenshot_id=157, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=375, mouse_y=414, mouse_button_name='left', mouse_pressed=True, disabled=False)
+2025-01-26 16:00:23.323 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=196, name='click', timestamp=1737896662.8328762, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896662.9166825, screenshot_id=158, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=375, mouse_y=414, mouse_button_name='left', mouse_pressed=False, disabled=False)
+2025-01-26 16:00:23.323 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=197, name='move', timestamp=1737896665.539342, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.6248481, screenshot_id=159, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=374, mouse_y=416, disabled=False)
+2025-01-26 16:00:23.323 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=198, name='move', timestamp=1737896665.5396547, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.6248481, screenshot_id=159, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=370, mouse_y=430, disabled=False)
+2025-01-26 16:00:23.323 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=199, name='move', timestamp=1737896665.5398262, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.6248481, screenshot_id=159, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=363, mouse_y=455, disabled=False)
+2025-01-26 16:00:23.324 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=200, name='move', timestamp=1737896665.5643394, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.6440668, screenshot_id=160, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=358, mouse_y=479, disabled=False)
+2025-01-26 16:00:23.324 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=201, name='move', timestamp=1737896665.5704696, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.6573815, screenshot_id=161, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=357, mouse_y=499, disabled=False)
+2025-01-26 16:00:23.324 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=202, name='move', timestamp=1737896665.5939355, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.6807585, screenshot_id=162, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=360, mouse_y=515, disabled=False)
+2025-01-26 16:00:23.324 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=203, name='move', timestamp=1737896665.6172667, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.698026, screenshot_id=163, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=366, mouse_y=528, disabled=False)
+2025-01-26 16:00:23.324 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=204, name='move', timestamp=1737896665.6267436, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.7140918, screenshot_id=164, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=371, mouse_y=535, disabled=False)
+2025-01-26 16:00:23.324 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=205, name='move', timestamp=1737896665.6500354, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.7327747, screenshot_id=165, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=373, mouse_y=538, disabled=False)
+2025-01-26 16:00:23.324 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=207, name='click', timestamp=1737896665.801182, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.9019437, screenshot_id=167, window_event_timestamp=1737896653.4216526, window_event_id=2, mouse_x=374, mouse_y=539, mouse_button_name='left', mouse_pressed=True, disabled=False)
+2025-01-26 16:00:23.325 | DEBUG    | openadapt.events:is_target_event:527 - is_target_event=False event=ActionEvent(id=208, name='click', timestamp=1737896665.864445, recording_timestamp=1737896643.6092129, recording_id=1, screenshot_timestamp=1737896665.9637225, screenshot_id=168, window_event_timestamp=1737896665.9188533, window_event_id=3, mouse_x=374, mouse_y=539, mouse_button_name='left', mouse_pressed=False, disabled=False)
+2025-01-26 16:00:23.325 | INFO     | openadapt.events:merge_consecutive_action_events:793 - name='keyboard' num_events_removed=0
+2025-01-26 16:00:23.325 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='window_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.325 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='screenshot_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.325 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='browser_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.325 | DEBUG    | openadapt.events:get_merged_events:296 - group_idx_tups=[(0, 36)]
+2025-01-26 16:00:23.326 | DEBUG    | openadapt.events:get_merged_events:320 - len(group_idx_tups)=1
+2025-01-26 16:00:23.326 | DEBUG    | openadapt.events:get_merged_events:321 - len(merged_events)=1
+2025-01-26 16:00:23.326 | DEBUG    | openadapt.events:get_merged_events:296 - group_idx_tups=[(0, 56)]
+2025-01-26 16:00:23.326 | DEBUG    | openadapt.events:get_merged_events:320 - len(group_idx_tups)=1
+2025-01-26 16:00:23.326 | DEBUG    | openadapt.events:get_merged_events:321 - len(merged_events)=1
+2025-01-26 16:00:23.326 | DEBUG    | openadapt.events:get_merged_events:296 - group_idx_tups=[(0, 45)]
+2025-01-26 16:00:23.327 | DEBUG    | openadapt.events:get_merged_events:320 - len(group_idx_tups)=1
+2025-01-26 16:00:23.327 | DEBUG    | openadapt.events:get_merged_events:321 - len(merged_events)=1
+2025-01-26 16:00:23.327 | DEBUG    | openadapt.events:get_merged_events:296 - group_idx_tups=[(0, 26)]
+2025-01-26 16:00:23.327 | DEBUG    | openadapt.events:get_merged_events:320 - len(group_idx_tups)=1
+2025-01-26 16:00:23.327 | DEBUG    | openadapt.events:get_merged_events:321 - len(merged_events)=1
+2025-01-26 16:00:23.327 | DEBUG    | openadapt.events:get_merged_events:296 - group_idx_tups=[(0, 18)]
+2025-01-26 16:00:23.327 | DEBUG    | openadapt.events:get_merged_events:320 - len(group_idx_tups)=1
+2025-01-26 16:00:23.327 | DEBUG    | openadapt.events:get_merged_events:321 - len(merged_events)=1
+2025-01-26 16:00:23.327 | DEBUG    | openadapt.events:get_merged_events:296 - group_idx_tups=[(0, 9)]
+2025-01-26 16:00:23.328 | DEBUG    | openadapt.events:get_merged_events:320 - len(group_idx_tups)=1
+2025-01-26 16:00:23.328 | DEBUG    | openadapt.events:get_merged_events:321 - len(merged_events)=1
+2025-01-26 16:00:23.328 | INFO     | openadapt.events:merge_consecutive_action_events:793 - name='mouse_move' num_events_removed=184
+2025-01-26 16:00:23.328 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='window_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.328 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='screenshot_timestamp' num_referred_events_removed=146
+2025-01-26 16:00:23.328 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='browser_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.328 | INFO     | openadapt.events:merge_consecutive_action_events:793 - name='mouse_scroll' num_events_removed=0
+2025-01-26 16:00:23.328 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='window_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.328 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='screenshot_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.328 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='browser_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.328 | DEBUG    | openadapt.events:get_timestamp_mappings:413 - double_click_distance=8
+2025-01-26 16:00:23.329 | DEBUG    | openadapt.events:get_timestamp_mappings:419 - double_click_interval=0.4
+2025-01-26 16:00:23.329 | DEBUG    | openadapt.events:get_merged_events:452 - skipping event.timestamp=1737896652.3148851
+2025-01-26 16:00:23.329 | DEBUG    | openadapt.events:get_timestamp_mappings:413 - double_click_distance=8
+2025-01-26 16:00:23.329 | DEBUG    | openadapt.events:get_timestamp_mappings:419 - double_click_interval=0.4
+2025-01-26 16:00:23.329 | DEBUG    | openadapt.events:get_merged_events:452 - skipping event.timestamp=1737896656.361618
+2025-01-26 16:00:23.329 | DEBUG    | openadapt.events:get_timestamp_mappings:413 - double_click_distance=8
+2025-01-26 16:00:23.329 | DEBUG    | openadapt.events:get_timestamp_mappings:419 - double_click_interval=0.4
+2025-01-26 16:00:23.329 | DEBUG    | openadapt.events:get_merged_events:452 - skipping event.timestamp=1737896656.5880816
+2025-01-26 16:00:23.329 | DEBUG    | openadapt.events:get_timestamp_mappings:413 - double_click_distance=8
+2025-01-26 16:00:23.329 | DEBUG    | openadapt.events:get_timestamp_mappings:419 - double_click_interval=0.4
+2025-01-26 16:00:23.330 | DEBUG    | openadapt.events:get_merged_events:452 - skipping event.timestamp=1737896657.6067781
+2025-01-26 16:00:23.330 | DEBUG    | openadapt.events:get_timestamp_mappings:413 - double_click_distance=8
+2025-01-26 16:00:23.330 | DEBUG    | openadapt.events:get_timestamp_mappings:419 - double_click_interval=0.4
+2025-01-26 16:00:23.330 | DEBUG    | openadapt.events:get_merged_events:452 - skipping event.timestamp=1737896658.0093508
+2025-01-26 16:00:23.330 | DEBUG    | openadapt.events:get_timestamp_mappings:413 - double_click_distance=8
+2025-01-26 16:00:23.330 | DEBUG    | openadapt.events:get_timestamp_mappings:419 - double_click_interval=0.4
+2025-01-26 16:00:23.330 | DEBUG    | openadapt.events:get_merged_events:452 - skipping event.timestamp=1737896660.930226
+2025-01-26 16:00:23.330 | INFO     | openadapt.events:merge_consecutive_action_events:793 - name='mouse_click' num_events_removed=6
+2025-01-26 16:00:23.330 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='window_event_timestamp' num_referred_events_removed=1
+2025-01-26 16:00:23.330 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='screenshot_timestamp' num_referred_events_removed=6
+2025-01-26 16:00:23.330 | DEBUG    | openadapt.events:discard_unused_events:828 - referred_timestamp_key='browser_event_timestamp' num_referred_events_removed=0
+2025-01-26 16:00:23.331 | INFO     | openadapt.events:filter_invalid_window_events:872 - Completed filtering and updating invalid window events in action events.
+2025-01-26 16:00:23.331 | INFO     | openadapt.events:merge_events:972 - after num_action_events_=12 num_window_events_=12 num_screenshots_=12 num_browser_events_=0 num_total_=36
+2025-01-26 16:00:23.331 | INFO     | openadapt.events:merge_events:978 - pct_action_events=0.057692307692307696 pct_window_events=4.0 pct_screenshots=0.06896551724137931 pct_browser_events=None pct_total=0.09350649350649351
+2025-01-26 16:00:23.331 | INFO     | openadapt.events:get_events:143 - duration=0.31810593605041504
+2025-01-26 16:00:23.721 | DEBUG    | openadapt.video:extract_frames:316 - frame_differences=
+{8.34609580039978: 0.0705708662668858,
+ 8.400648832321167: 0.09935116767883301,
+ 8.421954870223999: 0.07804512977600098,
+ 8.436531782150269: 0.06346821784973145,
+ 8.455209016799927: 0.08645764986673932,
+ 8.487806558609009: 0.09552677472432336,
+ 8.509494304656982: 0.07383902867634973,
+ 8.528318405151367: 0.09668159484863281,
+ 8.548233985900879: 0.0767660140991211,
+ 8.559181451797485: 0.06581854820251465,
+ 8.582224607467651: 0.08444205919901471,
+ 8.600614070892334: 0.06605259577433209,
+ 8.619587421417236: 0.08874591191609582,
+ 8.63394021987915: 0.07439311345418176,
+ 8.659234762191772: 0.09076523780822754,
+ 8.678284406661987: 0.0717155933380127,
+ 8.692729949951172: 0.0989367167154942,
+ 8.707263469696045: 0.08440319697062115,
+ 8.727248191833496: 0.06441847483316998,
+ 8.752279043197632: 0.08105429013570031,
+ 8.758645296096802: 0.07468803723653039,
+ 8.777257204055786: 0.09774279594421387,
+ 8.803152322769165: 0.07184767723083496,
+ 8.810790300369263: 0.0642096996307373,
+ 8.83672046661377: 0.07994620005289654,
+ 8.852662801742554: 0.06400386492411236,
+ 8.898338079452515: 0.0599952538808175,
+ 9.010119915008545: 0.07321341832478723,
+ 9.02138376235962: 0.06194957097371301,
+ 9.076401710510254: 0.09026495615641217,
+ 9.332707405090332: 0.08395926157633404,
+ 9.415791273117065: 0.08420872688293457,
+ 12.514748811721802: 0.06858452161153039,
+ 12.576915740966797: 0.0897509256998692,
+ 12.586733341217041: 0.07993332544962506,
+ 12.647249460220337: 0.061083873112995235,
+ 12.658138751983643: 0.09186124801635742,
+ 12.716170072555542: 0.07549659411112408,
+ 12.729898929595947: 0.06176773707071881,
+ 12.757221698760986: 0.07611163457234582,
+ 12.789734363555908: 0.0852656364440918,
+ 12.803682804107666: 0.07131719589233398,
+ 12.819594621658325: 0.09707204500834088,
+ 12.837973594665527: 0.07869307200113873,
+ 12.853861093521118: 0.06280557314554791,
+ 12.874288320541382: 0.08404501279195031,
+ 12.890101671218872: 0.06823166211446008,
+ 12.912570714950562: 0.08742928504943848,
+ 12.926159620285034: 0.07384037971496582,
+ 12.934956789016724: 0.06504321098327637,
+ 12.949352264404297: 0.0923144022623692,
+ 12.970546245574951: 0.0711204210917149,
+ 12.991626977920532: 0.09170635541279992,
+ 13.00426459312439: 0.0790687402089425,
+ 13.025272607803345: 0.09972739219665527,
+ 13.063220739364624: 0.06177926063537598,
+ 13.065199136734009: 0.05980086326599121,
+ 13.077726602554321: 0.08894006411234479,
+ 13.115967988967896: 0.09236534436543664,
+ 13.133827447891235: 0.0745058854420968,
+ 13.15673565864563: 0.09326434135437012,
+ 13.167243242263794: 0.08275675773620605,
+ 13.207902193069458: 0.08376447359720807,
+ 13.218035221099854: 0.07363144556681256,
+ 13.235229253768921: 0.09810407956441125,
+ 13.250122785568237: 0.08321054776509484,
+ 13.277201414108276: 0.09779858589172363,
+ 13.28822135925293: 0.08677864074707031,
+ 13.312749862670898: 0.06225013732910156,
+ 13.329627752304077: 0.08703891436258893,
+ 13.460097551345825: 0.08156911532084088,
+ 13.520683526992798: 0.0626498063405343,
+ 13.539347648620605: 0.08565235137939453,
+ 13.562830448150635: 0.062169551849365234,
+ 13.574127197265625: 0.09253946940104107,
+ 13.59909439086914: 0.06757227579752545,
+ 13.615119218826294: 0.0932141145070382,
+ 14.458777904510498: 0.08288876215616803,
+ 14.564741134643555: 0.06025886535644531,
+ 14.62898850440979: 0.07934482892354211,
+ 14.638482570648193: 0.06985076268513879,
+ 14.691081047058105: 0.05891895294189453,
+ 14.782936096191406: 0.09206390380859375,
+ 14.842820644378662: 0.07384602228800397,
+ 14.89997673034668: 0.05835660298665246,
+ 14.910768985748291: 0.08923101425170898,
+ 14.928734064102173: 0.07126593589782715,
+ 14.94408631324768: 0.09758035341898541,
+ 14.956862688064575: 0.08480397860209088,
+ 14.974798440933228: 0.06686822573343854,
+ 14.992326736450195: 0.09100659688313684,
+ 15.05056357383728: 0.07443642616271973,
+ 15.076390266418457: 0.09027640024820904,
+ 15.092876434326172: 0.0737902323404942,
+ 15.103739738464355: 0.0629269282023106,
+ 15.128203630447388: 0.08012970288594445,
+ 15.140223264694214: 0.06811006863911828,
+ 15.158036947250366: 0.09196305274963379,
+ 15.179131031036377: 0.07086896896362305,
+ 15.228809118270874: 0.06285754839579205,
+ 15.252788543701172: 0.08054478963216027,
+ 15.286165475845337: 0.08883452415466309,
+ 15.337202787399292: 0.07946387926737408,
+ 15.391107082366943: 0.06722625096638879,
+ 15.404797554016113: 0.09520244598388672,
+ 15.453681945800781: 0.08798472086588482,
+ 15.47541093826294: 0.06625572840372662,
+ 15.513596773147583: 0.06973656018574914,
+ 16.597158193588257: 0.013824860254924687,
+ 16.740270614624023: 0.05139605204264086,
+ 16.75324320793152: 0.038423458735145744,
+ 16.810630798339844: 0.06436920166015625,
+ 16.897483825683594: 0.0608495076497384,
+ 16.970552682876587: 0.029447317123413086,
+ 17.032533884048462: 0.09246611595153809,
+ 17.091240644454956: 0.07542602221170824,
+ 17.110528230667114: 0.09780510266621789,
+ 17.12738800048828: 0.0809453328450509,
+ 17.147196292877197: 0.061137040456134883,
+ 17.158915281295776: 0.09108471870422363,
+ 17.18251395225525: 0.06748604774475098,
+ 17.19471764564514: 0.0969490210215227,
+ 17.213600397109985: 0.07806626955667895,
+ 17.231185913085938: 0.0604807535807268,
+ 17.25033187866211: 0.08300145467122277,
+ 17.280472993850708: 0.09452700614929199,
+ 17.2892746925354: 0.08572530746459961,
+ 17.31104612350464: 0.06395387649536133,
+ 17.322283267974854: 0.09438339869181078,
+ 17.35383677482605: 0.0628298918406145,
+ 17.355536937713623: 0.06112972895304125,
+ 17.371440172195435: 0.08689316113789758,
+ 17.399580001831055: 0.05875333150227746,
+ 17.41722297668457: 0.08277702331542969,
+ 17.432992696762085: 0.06700730323791504,
+ 17.452901363372803: 0.08876530329386156,
+ 17.481027841567993: 0.060638825098671134,
+ 17.50077176094055: 0.08256157239278039,
+ 18.395556211471558: 0.06277712186177453,
+ 18.459516048431396: 0.0011827150980643353,
+ 18.610591173171997: 0.09774216016133508,
+ 18.61527681350708: 0.09305651982625207,
+ 18.67953372001648: 0.07046627998352051,
+ 18.686657667160034: 0.06334233283996582,
+ 18.712514400482178: 0.07915226618448656,
+ 18.72394299507141: 0.06772367159525317,
+ 18.752588272094727: 0.08074506123860559,
+ 18.762122869491577: 0.071210463841755,
+ 18.778255224227905: 0.09674477577209473,
+ 18.79897952079773: 0.07602047920227051,
+ 18.804345846176147: 0.07065415382385254,
+ 18.838945865631104: 0.07772080103556078,
+ 18.846686124801636: 0.06998054186502856,
+ 18.873398780822754: 0.08493455251057824,
+ 18.886924505233765: 0.0714088280995675,
+ 19.04446005821228: 0.08053994178771973,
+ 19.252716779708862: 0.038949886957801994,
+ 19.295154571533203: 0.003487904866538827,
+ 22.00332021713257: 0.08001311620076379,
+ 22.022538900375366: 0.06079443295796594,
+ 22.035853624343872: 0.08914637565612793,
+ 22.05923056602478: 0.06576943397521973,
+ 22.07649803161621: 0.09016863505045336,
+ 22.09256386756897: 0.07410279909769457,
+ 22.111246824264526: 0.09708650906880578,
+ 22.129497289657593: 0.07883604367573938,
+ 22.280415773391724: 0.09458422660827637,
+ 22.34219455718994: 0.032805442810058594,
+ 23.542335510253906: 0.0409978230794259,
+ 23.603840827941895: 0.020507494608562382,
+ 23.717073678970337: 0.032926321029663086,
+ 23.787410736083984: 0.08758926391601562,
+ 23.908660411834717: 0.0913395881652832,
+ 24.00135350227356: 0.04031316439310473}
+2025-01-26 16:00:24.941 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:24.942 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:24.942 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:24.951 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:24.951 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907224.9518595
+2025-01-26 16:00:24.963 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.012002706527709961
+2025-01-26 16:00:24.964 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:24.964 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:24.964 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907224.9647946
+2025-01-26 16:00:24.967 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.002489328384399414
+2025-01-26 16:00:24.971 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:24.971 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:24.972 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:24.978 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:24.979 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907224.9790285
+2025-01-26 16:00:24.987 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.008693933486938477
+2025-01-26 16:00:24.987 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:24.988 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:24.988 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907224.9885294
+2025-01-26 16:00:24.990 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.002133607864379883
+2025-01-26 16:00:24.994 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:24.995 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:24.995 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.002 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.002 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907225.0022297
+2025-01-26 16:00:25.011 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.008946895599365234
+2025-01-26 16:00:25.011 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.011 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.011 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907225.0119708
+2025-01-26 16:00:25.013 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.001756906509399414
+2025-01-26 16:00:25.019 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:25.019 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:25.019 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.026 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.026 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907225.026928
+2025-01-26 16:00:25.035 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.008557319641113281
+2025-01-26 16:00:25.035 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.036 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.036 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907225.0363348
+2025-01-26 16:00:25.038 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.0018694400787353516
+2025-01-26 16:00:25.042 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:25.042 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:25.042 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.049 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.049 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907225.049763
+2025-01-26 16:00:25.058 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.008727312088012695
+2025-01-26 16:00:25.058 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.059 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.059 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907225.059273
+2025-01-26 16:00:25.060 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.0016665458679199219
+2025-01-26 16:00:25.065 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:25.065 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:25.065 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.072 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.072 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907225.0724072
+2025-01-26 16:00:25.080 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.008353948593139648
+2025-01-26 16:00:25.080 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.081 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.081 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907225.0815442
+2025-01-26 16:00:25.083 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.0018918514251708984
+2025-01-26 16:00:25.087 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:25.087 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:25.087 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.094 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.094 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907225.0948074
+2025-01-26 16:00:25.103 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.00877690315246582
+2025-01-26 16:00:25.103 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.104 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.104 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907225.1044083
+2025-01-26 16:00:25.106 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.0021445751190185547
+2025-01-26 16:00:25.110 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:25.110 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:25.111 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.117 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.117 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907225.1179545
+2025-01-26 16:00:25.126 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.00898432731628418
+2025-01-26 16:00:25.127 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.127 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.127 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907225.1277602
+2025-01-26 16:00:25.129 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.0017642974853515625
+2025-01-26 16:00:25.133 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:25.133 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:25.134 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.140 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.141 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907225.1410387
+2025-01-26 16:00:25.149 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.008568525314331055
+2025-01-26 16:00:25.149 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.150 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.150 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907225.1503923
+2025-01-26 16:00:25.152 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.0019516944885253906
+2025-01-26 16:00:25.156 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:25.156 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:25.156 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.163 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.163 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907225.1636846
+2025-01-26 16:00:25.172 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.00861668586730957
+2025-01-26 16:00:25.172 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.173 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.173 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907225.1730957
+2025-01-26 16:00:25.174 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.0018858909606933594
+2025-01-26 16:00:25.179 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:25.179 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:25.179 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.186 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.186 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907225.1863277
+2025-01-26 16:00:25.195 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.009593725204467773
+2025-01-26 16:00:25.196 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.196 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.196 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907225.1969104
+2025-01-26 16:00:25.201 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.00423741340637207
+2025-01-26 16:00:25.205 | INFO     | openadapt.models:prompt_for_description:601 - system_prompt=
+
+Briefly describe the user interface element in the screenshot at the
+highlighted location.
+For example:
+- "OK button"
+- "URL bar"
+- "Down arrow"
+DO NOT DESCRIBE ANYTHING OUTSIDE THE HIGHLIGHTED AREA.
+Do not append anything like "is contained within the highlighted circle
+in the calculator interface." Just name the user interface element.
+
+2025-01-26 16:00:25.205 | INFO     | openadapt.models:prompt_for_description:602 - prompt=
+What user interface element is contained in the highlighted circle of the image?
+2025-01-26 16:00:25.206 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.213 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.213 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) start_time=1737907225.2132926
+2025-01-26 16:00:25.223 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function create_payload at 0xffff6bc7f9c0>, location=.cache/joblib) duration=0.009978294372558594
+2025-01-26 16:00:25.223 | DEBUG    | openadapt.cache:wrapper:72 - cache_enabled=True
+2025-01-26 16:00:25.224 | DEBUG    | openadapt.cache:wrapper:82 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) cache_hit=True
+2025-01-26 16:00:25.224 | DEBUG    | openadapt.cache:wrapper:84 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) start_time=1737907225.2241802
+2025-01-26 16:00:25.226 | DEBUG    | openadapt.cache:wrapper:87 - fn=MemorizedFunc(func=<function get_completion at 0xffff6ae2cd60>, location=.cache/joblib) duration=0.0024662017822265625
+'result=\nSign In button'
+'result=\nTaskbar window preview thumbnail'
+'result=\nNumber 2 button'
+'result=\nNumber 2 button'
+'result=\nMultiplication (*) button'
+'result=\nMultiplication symbol (*)'
+'result=\nNumber 3 button'
+'result=\nNumber 3 button'
+'result=\nEquals button'
+'result=\n= (equals sign button)'
+'result=\n__main__preconfig1575'
+'result=\n_main_prerecord:1575'
